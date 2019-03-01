@@ -56,10 +56,69 @@
     font-style: normal;
 }
 
-
-
-
-
 body{
     font-family:Helvetica, sans-serif;
+}
+button,a{
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+}
+
+/* Chip */
+
+.mat-chip {
+    font-size: 15px;
+}
+.mat-standard-chip {
+    padding: 7px 12px;
+    border-radius: 0 !important;
+}
+.mat-standard-chip.mat-chip-with-trailing-icon {
+    padding-right: 12px !important;
+    padding-left: 12px !important;
+}
+.budget-picker-controller .mat-chip.mat-standard-chip {
+    background-color: #fff;
+    color: #1b374c;
+    box-shadow: 5px 0px 21px rgba(157,157,157,0.29);
+    font-weight: bold;
+}
+.budget-picker-controller  .mat-form-field-appearance-legacy .mat-form-field-label{
+    color:#e0bf65;
+}
+.mat-chip-list-wrapper input.mat-input-element{
+    padding: 10px 0;
+}
+.mat-chip.mat-standard-chip .mat-chip-remove {
+    color: #fb655a;
+    opacity: 1;
+}
+.mat-chip .mat-chip-remove.mat-icon, .mat-chip .mat-chip-trailing-icon.mat-icon{
+    font-size: 20px;
+}
+.mat-chip-list-wrapper {
+    padding-bottom: 20px;
+}
+.mat-autocomplete-panel{
+    background-color: #f4f4f4;
+}
+.mat-autocomplete-panel .mat-option.mat-selected:not(.mat-active):not(:hover){
+    background-color: #f4f4f4;
+}
+.budget-picker-controller .mat-chip-list-wrapper input.mat-input-element{
+    color: #fff;
+}
+.budget-picker-controller .mat-input-element {
+    caret-color: #fff;
+}
+
+/* Chip */
+
+.budget-picker-controller .mat-form-field.mat-focused .mat-form-field-ripple {
+    background-color: #e0bf65;
+}
+.budget-picker-controller .mat-form-field-ripple,
+.budget-picker-controller .mat-form-field-appearance-legacy .mat-form-field-underline{
+    background-color: #fff;
 }

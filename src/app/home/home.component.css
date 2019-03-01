@@ -5,7 +5,7 @@
 }
 .home-wrapper{
     background: url(/assets/images/banner.jpg) no-repeat;
-    width:100vw;
+    width:98vw;
     height: 100vh;
     background-size:cover;
     position: relative;
@@ -51,15 +51,28 @@
     transform: translate(-50%,-50%);
     display: flex;
     background-color: rgba(24,55,76,0.85);
-    padding: 70px 20px;
+    padding: 40px 20px;
     max-width: 43%;
+    margin-top: 30px;
 }
 .budget-picker-controller h1{
     color: #fff;
     font-size: 40px;
-    font-weight: normal;
     text-align: center;
     font-family: Helvetica;
     line-height: 50px;
     font-weight: 300;
+}
+.example-chip-list {
+    width: 100%;
+}
+.get-started-btn{
+    background-color: #e0bf66;
+    color: #12222f;
+    text-transform: lowercase;
+    font-size: 18px;
+    text-align: center;
+    display: table;
+    margin: 20px auto 0;
+    padding: 5px 30px;
 }

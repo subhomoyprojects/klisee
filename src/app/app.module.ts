@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './routing/app-routing.module';
 import { AppComponent } from './app.component';
 // Metarial Import
-import { MetarialModule } from './metarial/metarial/metarial.module';
+import { MetarialModule } from './metarial/metarial.module';
 import { HomeComponent } from './home/home.component';
 
 @NgModule({

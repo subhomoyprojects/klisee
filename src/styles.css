@@ -72,20 +72,22 @@ button,a{
 }
 .mat-standard-chip {
     padding: 7px 12px;
-    border-radius: 0 !important;
 }
 .mat-standard-chip.mat-chip-with-trailing-icon {
     padding-right: 12px !important;
     padding-left: 12px !important;
 }
 .budget-picker-controller .mat-chip.mat-standard-chip {
-    background-color: #fff;
     color: #1b374c;
     box-shadow: 5px 0px 21px rgba(157,157,157,0.29);
     font-weight: bold;
+    background-color: transparent;
+    border: 1px solid #1b374c;
+    font-size: 14px;
 }
 .budget-picker-controller  .mat-form-field-appearance-legacy .mat-form-field-label{
     color:#e0bf65;
+    display: none;
 }
 .mat-chip-list-wrapper input.mat-input-element{
     padding: 10px 0;
@@ -97,9 +99,6 @@ button,a{
 .mat-chip .mat-chip-remove.mat-icon, .mat-chip .mat-chip-trailing-icon.mat-icon{
     font-size: 20px;
 }
-.mat-chip-list-wrapper {
-    padding-bottom: 20px;
-}
 .mat-autocomplete-panel{
     background-color: #f4f4f4;
 }
@@ -107,18 +106,31 @@ button,a{
     background-color: #f4f4f4;
 }
 .budget-picker-controller .mat-chip-list-wrapper input.mat-input-element{
-    color: #fff;
+    color: #1b374c;
 }
 .budget-picker-controller .mat-input-element {
-    caret-color: #fff;
+    caret-color: #1b374c;
 }
+/* For home page only */
+.budget-picker-controller .mat-chip-list-wrapper {
+    margin: 0;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: inset 0 0 14px rgba(0,0,0,0.4);
+}
+.budget-picker-controller .mat-chip.mat-standard-chip .mat-chip-remove {
+    color: #1b374c;
+}
+/* for jome page only */
 
 /* Chip */
 
 .budget-picker-controller .mat-form-field.mat-focused .mat-form-field-ripple {
     background-color: #e0bf65;
+    display: none;
 }
 .budget-picker-controller .mat-form-field-ripple,
 .budget-picker-controller .mat-form-field-appearance-legacy .mat-form-field-underline{
     background-color: #fff;
+    display: none;
 }

@@ -14,11 +14,12 @@ export class HomeComponent implements OnInit {
   visible = true;
   selectable = true;
   removable = true;
-  addOnBlur = true;
+  addOnBlur = false;
   separatorKeysCodes: number[] = [ENTER, COMMA];
   fruitCtrl = new FormControl();
   filteredFruits: Observable<string[]>;
-  fruits: string[] = ['Lorem1'];
+  fruits: any = [];
+  //fruits: string[] = ['Lorem1']; // its default selected item
   allFruits: string[] = ['Lorem1', 'Lorem2', 'Lorem3', 'Lorem4', 'Lorem5'];
 
   @ViewChild('fruitInput') fruitInput: ElementRef<HTMLInputElement>;

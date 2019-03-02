@@ -5,10 +5,11 @@
 }
 .home-wrapper{
     background: url(/assets/images/banner.jpg) no-repeat;
-    width:98vw;
+    width:100vw;
     height: 100vh;
     background-size:cover;
     position: relative;
+    overflow-x: hidden;
 }
 .navbar-brand{
     padding-top: 0;
@@ -54,6 +55,7 @@
     padding: 40px 20px;
     max-width: 43%;
     margin-top: 30px;
+    width:100%;
 }
 .budget-picker-controller h1{
     color: #fff;
@@ -76,6 +78,14 @@
     margin: 20px auto 0;
     padding: 5px 30px;
 }
+.visible-desktop{
+    display: block;
+}
+.visible-mobile{
+    display: none;
+}
+
+/* Media Start */
 
 @media (min-width:320px) and (max-width:767px){
     .budget-picker-wrapper{
@@ -86,6 +96,70 @@
         font-size: 16px;
         line-height: 26px;
         font-weight: normal;
-        margin-bottom: 30px;
+    }
+    .get-started-btn {
+        margin: 0 auto;
+    }
+    .home-wrapper {
+        width: 100vw;
+        max-width: 100%;
+    }
+    .budget-picker-wrapper {
+        max-width: 90%;
+        width: 100%;
+    }
+    .separater::after{
+        display: none;
+    }
+    .visible-desktop{
+        display: none;
+    }
+    .visible-mobile{
+        display: block;
+    }
+    .empowering-home-text-controller p{
+        margin-bottom: 15px;
+    }
+}
+@media (min-width:481px) and (max-width:767px){
+    .budget-picker-controller h1 {
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .get-started-btn {
+        font-size: 24px;
+        padding: 0 30px;
+        line-height: 43px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .budget-picker-wrapper {
+        max-width: 80%;
+        width: 100%;
+    }
+    .home-wrapper {
+        width: 100vw;
+    }
+    .separater::after{
+        display: none;
+    }
+    .visible-desktop{
+        display: none;
+    }
+    .visible-mobile{
+        display: block;
+    }
+    .empowering-home-text-controller p{
+        margin-bottom: 15px;
+    }
+}
+@media (min-width:992px) and (max-width:1199px){
+    .budget-picker-wrapper {
+        max-width: 60%;
+    }
+}
+@media (min-width:1200px) and (max-width:1300px){
+    .budget-picker-wrapper {
+        max-width: 50%;
     }
 }

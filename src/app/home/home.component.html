@@ -35,7 +35,12 @@
           <h1>Ready to create a budget? Pick you project</h1>
           <form class="example-form">
             <mat-form-field class="project-picker">
-              <input matInput type="text">
+              <input type="text" aria-label="Number" matInput [formControl]="myControl" [matAutocomplete]="auto">
+              <mat-autocomplete #auto="matAutocomplete">
+                <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+                  {{option}}
+                </mat-option>
+              </mat-autocomplete>
             </mat-form-field>
           </form>             
           <button type="button" class="get-started-btn">get started</button>      

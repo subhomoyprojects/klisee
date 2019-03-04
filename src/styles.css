@@ -69,5 +69,8 @@ button,a{
 .project-picker .mat-form-field-underline,.project-picker .mat-form-field-subscript-wrapper{
     display: none;
 }
+.mat-autocomplete-panel{
+    max-height: 160px !important;
+}
 
 /*------------ Home Input controller -----------------*/

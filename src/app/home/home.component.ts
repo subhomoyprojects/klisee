@@ -11,7 +11,7 @@ import {map, startWith} from 'rxjs/operators';
 export class HomeComponent implements OnInit {
 
   myControl = new FormControl();
-  options: string[] = ['One', 'Two', 'Three'];
+  options: string[] = ['Kitchen remodel', 'Bathroom remodel', 'Other'];
   filteredOptions: Observable<string[]>;
 
   constructor() {}

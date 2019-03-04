@@ -2,8 +2,6 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatChipsModule} from '@angular/material/chips'; 
-import {MatAutocompleteModule} from '@angular/material';
 import {MatIconModule} from '@angular/material';
 import { MatFormFieldModule, MatInputModule } from '@angular/material';
 
@@ -12,8 +10,6 @@ import { MatFormFieldModule, MatInputModule } from '@angular/material';
   imports: [
     CommonModule,
     BrowserAnimationsModule,
-    MatChipsModule,
-    MatAutocompleteModule,
     MatIconModule,
     MatFormFieldModule,
     MatInputModule
@@ -21,8 +17,6 @@ import { MatFormFieldModule, MatInputModule } from '@angular/material';
   exports: [
     CommonModule,
     BrowserAnimationsModule,
-    MatChipsModule,
-    MatAutocompleteModule,
     MatIconModule,
     MatFormFieldModule,
     MatInputModule

@@ -7,12 +7,14 @@ import { ComponentRoutingModule } from './component-routing.module';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
+import { LocationComponent } from './location/location.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    LocationComponent
   ],
   imports: [
     CommonModule,

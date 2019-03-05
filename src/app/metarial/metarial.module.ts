@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material';
 import { MatFormFieldModule, MatInputModule } from '@angular/material';
 import {MatAutocompleteModule} from '@angular/material/autocomplete'; 
@@ -10,7 +9,6 @@ import {MatAutocompleteModule} from '@angular/material/autocomplete';
   declarations: [],
   imports: [
     CommonModule,
-    BrowserAnimationsModule,
     MatIconModule,
     MatFormFieldModule,
     MatInputModule,
@@ -18,7 +16,6 @@ import {MatAutocompleteModule} from '@angular/material/autocomplete';
   ],
   exports: [
     CommonModule,
-    BrowserAnimationsModule,
     MatIconModule,
     MatFormFieldModule,
     MatInputModule,

@@ -64,6 +64,9 @@ button,a{
     background-color: transparent;
     border: none;
 }
+.container{
+    max-width:1161px;
+}
 /*------------ Home Input controller -----------------*/
 
 .project-picker .mat-form-field-underline,.project-picker .mat-form-field-subscript-wrapper{
@@ -74,3 +77,12 @@ button,a{
 }
 
 /*------------ Home Input controller -----------------*/
+
+/* Location */
+
+.question-answer-holder .mat-form-field-appearance-legacy .mat-form-field-label{
+    padding:  7px;
+}
+.question-answer-holder .mat-form-field-underline,.question-answer-holder .mat-form-field-subscript-wrapper{
+    display: none;
+}

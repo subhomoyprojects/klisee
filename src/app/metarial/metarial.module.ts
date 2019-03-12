@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import {MatIconModule} from '@angular/material';
 import { MatFormFieldModule, MatInputModule } from '@angular/material';
 import {MatAutocompleteModule} from '@angular/material/autocomplete'; 
+import {MatButtonModule} from '@angular/material/button'; 
 
 @NgModule({
   declarations: [],
@@ -12,14 +13,16 @@ import {MatAutocompleteModule} from '@angular/material/autocomplete';
     MatIconModule,
     MatFormFieldModule,
     MatInputModule,
-    MatAutocompleteModule
+    MatAutocompleteModule,
+    MatButtonModule
   ],
   exports: [
     CommonModule,
     MatIconModule,
     MatFormFieldModule,
     MatInputModule,
-    MatAutocompleteModule
+    MatAutocompleteModule,
+    MatButtonModule
   ]
 })
 export class MetarialModule { }

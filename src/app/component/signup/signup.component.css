@@ -1,0 +1,133 @@
+.header-login-signup-wrapper{
+    background-color: #18374c;
+}
+.header-login-signup-wrapper nav{
+    max-width:85%;
+    margin: 0 auto;
+    padding: 0;
+}
+.header-login-signup-wrapper .navbar-brand{
+    padding: 0;
+}
+.header-login-signup-wrapper .navbar-brand img{
+    width:120px;
+}
+.separater{
+    position: relative;
+}
+.separater::after{
+    content: "|";
+    position: absolute;
+    right: -2px;
+    top: 50%;
+    margin-top: -13px;
+    font-size: 20px;
+    color: #e0bf66;
+}
+.navbar-nav li a{
+    padding: 5px 15px;
+    font-size: 17px;
+    color: #e0bf66;
+}
+/*------*/
+.login-signup-main-wrapper{
+    background-color: #e4e8e8;
+    min-height: 100vh;
+}
+.login-signup-wrapper{
+    padding: 40px 0;
+}
+.heading-tag h1{
+    color: #446277;
+    font-size: 36px;
+    text-align: center;
+    font-family: Helvetica;
+    line-height: 40px;
+    margin: 1rem 0 1.5rem;
+}
+.heading-tag h1 span{
+    display: block;
+    font-size: 18px;
+}
+.heading-tag h1 span a:hover{
+    text-decoration: underline;
+}
+.signup-login-holder{
+    background-color: #fff;
+    max-width: 750px;
+    margin: 0 auto;
+    border: 1px solid #dedede;
+    box-shadow: 0 0 40px rgba(0,0,0,0.05);
+}
+.login-signup-form-controller{
+    padding: 30px;
+}
+.login-signup-form-controller h5{
+    color: #18374c;
+    font-size: 20px;
+    line-height: 28px;
+}
+.word-break{
+    display: block;
+}
+.social-btn-holder li a{
+    width: 190px;
+    height: 50px;
+}
+.social-btn-holder li a .fa {
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 26px;
+}
+.social-btn-holder{
+    margin-top: 20px;
+}
+.social-btn-holder li{
+    margin-bottom: 20px;
+}
+.saparater{
+    border-right: 2px solid #e0e0e0;
+}
+.terms-service-controller{
+    font-size: 14px;
+}
+.terms-service-controller a:hover{
+    text-decoration: underline;
+}
+.offwhite-bg{
+    background-color:#f8f7f1
+}
+.white-bg{
+    background-color: #fff;
+}
+
+/*--- Media Start ----*/
+@media (min-width:320px) and (max-width:991px){
+    .separater::after{
+        display: none;
+    }
+    .navbar-light .navbar-toggler{
+        border-color: #ddbf65;
+    }
+}
+@media (min-width:320px) and (max-width:767px){
+    .social-btn-holder li a .fa {
+        margin-right: 5px;
+        width: 38px;
+        height: 38px;
+        line-height: 38px;
+        font-size: 20px;
+    }
+    .social-btn-holder li a{
+        width: 120px;
+        height: 38px;
+    }
+    .social-btn-holder{
+        display: flex;
+    }
+    .social-btn-holder li{
+        margin: 5px;
+    }
+}

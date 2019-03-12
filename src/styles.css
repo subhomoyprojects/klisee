@@ -64,8 +64,100 @@ button,a{
     background-color: transparent;
     border: none;
 }
+a:hover{
+    text-decoration: none;
+}
 .container{
     max-width:1161px;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.facebook-btn{
+    background: linear-gradient(90deg, #4264a9,#324a8b);
+    color: #fff;
+    padding: 0 !important;
+    font-size: 17px;
+    font-family: 'Helvetica';
+    line-height: 38px;
+}
+.facebook-btn span{
+    display: block;
+    position: relative;
+    padding-left: 38px;
+}
+.facebook-btn .fa{
+    margin-right: 10px;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    border-right: 1px solid #2c4884;
+    line-height: 38px;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+}
+.social-btn-holder li .facebook-btn span{
+    line-height: 50px;
+    font-size: 20px;
+}
+.social-btn-holder li .facebook-btn span{
+    padding-left: 50px;
+}
+.facebook-btn:hover,.facebook-btn:active,.facebook-btn:focus{
+    color: #fff;
+}
+
+.twitter-btn{
+    background: linear-gradient(90deg, #29caf5,#1fb8f1);
+    color: #fff;
+    padding: 0 !important;
+    font-size: 17px;
+    font-family: 'Helvetica';
+    line-height: 38px;
+}
+.twitter-btn span{
+    display: block;
+    position: relative;
+    padding-left: 38px;
+}
+.twitter-btn .fa{
+    margin-right: 10px;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    border-right: 1px solid #1caadb;
+    line-height: 38px;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+}
+.social-btn-holder li .twitter-btn span{
+    line-height: 50px;
+    font-size: 20px;
+}
+.social-btn-holder li .twitter-btn span{
+    padding-left: 50px;
+}
+.twitter-btn:hover,.twitter-btn:active,.twitter-btn:focus{
+    color: #fff;
+}
+.mat-form-field{
+    width:100%;
+}
+.submit-btn{
+    background-color: #e0bf66;
+    color: #18374c;
+    width: 150px;
+    height: 38px;
+    font-size: 17px;
+    text-transform: capitalize;
+    margin-top: 20px !important;
+    font-family: 'Helvetica';
+}
+.submit-btn .fa{
+    margin-right: 7px;
 }
 /*------------ Home Input controller -----------------*/
 
@@ -85,4 +177,21 @@ button,a{
 }
 .question-answer-holder .mat-form-field-underline,.question-answer-holder .mat-form-field-subscript-wrapper{
     display: none;
+}
+@media(min-width:320px) and (max-width:767px)
+{
+    .social-btn-holder li .facebook-btn span {
+        padding-left: 38px;
+    }
+    .social-btn-holder li .facebook-btn span {
+        line-height: 38px;
+        font-size: 15px;
+    }
+    .social-btn-holder li .twitter-btn span {
+        padding-left: 38px;
+    }
+    .social-btn-holder li .twitter-btn span {
+        line-height: 38px;
+        font-size: 15px;
+    }
 }

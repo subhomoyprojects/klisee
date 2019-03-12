@@ -80,69 +80,89 @@ ul{
     padding: 0 !important;
     font-size: 17px;
     font-family: 'Helvetica';
-    line-height: 38px;
+    line-height: 36px;
 }
 .facebook-btn span{
     display: block;
     position: relative;
-    padding-left: 38px;
+    padding-left: 44px;
+    font-size: 15px;
+    padding-right: 10px;
 }
 .facebook-btn .fa{
     margin-right: 10px;
-    width: 38px;
-    height: 38px;
+    width: 36px;
+    height: 36px;
     text-align: center;
     border-right: 1px solid #2c4884;
-    line-height: 38px;
+    line-height: 36px;
     font-size: 20px;
     position: absolute;
     left: 0;
 }
-.social-btn-holder li .facebook-btn span{
-    line-height: 50px;
-    font-size: 20px;
-}
-.social-btn-holder li .facebook-btn span{
-    padding-left: 50px;
-}
 .facebook-btn:hover,.facebook-btn:active,.facebook-btn:focus{
     color: #fff;
 }
-
 .twitter-btn{
     background: linear-gradient(90deg, #29caf5,#1fb8f1);
     color: #fff;
     padding: 0 !important;
     font-size: 17px;
     font-family: 'Helvetica';
-    line-height: 38px;
+    line-height: 36px;
 }
 .twitter-btn span{
     display: block;
     position: relative;
-    padding-left: 38px;
+    padding-left: 44px;
+    font-size: 15px;
+    padding-right: 10px;
 }
 .twitter-btn .fa{
     margin-right: 10px;
-    width: 38px;
-    height: 38px;
+    width: 36px;
+    height: 36px;
     text-align: center;
     border-right: 1px solid #1caadb;
-    line-height: 38px;
+    line-height: 36px;
     font-size: 20px;
     position: absolute;
     left: 0;
 }
-.social-btn-holder li .twitter-btn span{
-    line-height: 50px;
-    font-size: 20px;
-}
-.social-btn-holder li .twitter-btn span{
-    padding-left: 50px;
-}
 .twitter-btn:hover,.twitter-btn:active,.twitter-btn:focus{
     color: #fff;
 }
+
+.google-plus-btn{
+    background: linear-gradient(90deg, #c33e2e,#ca584b);
+    color: #fff;
+    padding: 0 !important;
+    font-size: 17px;
+    font-family: 'Helvetica';
+    line-height: 36px;
+}
+.google-plus-btn span{
+    display: block;
+    position: relative;
+    padding-left: 44px;
+    font-size: 15px;
+    padding-right: 10px;
+}
+.google-plus-btn .fa{
+    margin-right: 10px;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    border-right: 1px solid #cf1f1e;
+    line-height: 36px;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+}
+.google-plus-btn:hover,.google-plus-btn:active,.google-plus-btn:focus{
+    color: #fff;
+}
+
 .mat-form-field{
     width:100%;
 }
@@ -158,6 +178,9 @@ ul{
 }
 .submit-btn .fa{
     margin-right: 7px;
+}
+.login-signup-form-controller .mat-form-field-appearance-legacy .mat-form-field-wrapper {
+    padding-bottom: 1em;
 }
 /*------------ Home Input controller -----------------*/
 

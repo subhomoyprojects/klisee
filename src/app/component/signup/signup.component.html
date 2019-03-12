@@ -23,23 +23,12 @@
       <div class="container">
         <div class="row">
           <div class="col-12 heading-tag">
-              <h1>Create a new <strong>Account</strong><span>Come join the Klisee, Let's setup your account. Already have one? <a routerLink="/login">sign In here.</a> </span></h1>
+              <h1>Create a new <strong>Account</strong><span>Come join the Klisee, Let's setup your account. Already have one? <a routerLink="/login">Sign in here.</a> </span></h1>
           </div>
         </div>
         <div class="signup-login-holder">
           <div class="row">
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 saparater login-signup-form-controller white-bg">
-              <h5>Just sign in with:</h5>
-              <ul class="social-btn-holder">
-                <li>
-                  <a mat-raised-button class="facebook-btn"><i class="fa fa-facebook"></i>Facebook</a>
-                </li>
-                <li>
-                  <a mat-raised-button class="twitter-btn"><i class="fa fa-twitter"></i>Twitter</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-12 col-sm-12 col-md-8 col-lg-8 login-signup-form-controller offwhite-bg">
+            <div class="col-12 login-signup-form-controller offwhite-bg">
               <form method="POST">
                 <ul>
                   <li>
@@ -64,14 +53,20 @@
                       <mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
                     </mat-form-field>
                   </li>
-                  <li>
-                    <mat-form-field>
-                      <input matInput placeholder="Zip code" required>
-                    </mat-form-field>
-                  </li>
                   <li class="terms-service-controller">By submitting this form you agree to Klisee <a href="">Terms of Service</a></li>
+                  <li class="text-center">
+                    <button mat-raised-button class="submit-btn">Submit</button>
+                  </li>
+                </ul>
+                <div class="or-saparater">
+                  <p>Or</p>
+                </div>
+                <ul class="social-btn-holder">
                   <li>
-                    <button mat-raised-button class="submit-btn"><i class="fa fa-paper-plane-o"></i> Submit</button>
+                    <a mat-raised-button class="facebook-btn"><i class="fa fa-facebook"></i>Sign up with Facebook</a>
+                  </li>
+                  <li>
+                    <a mat-raised-button class="google-plus-btn"><i class="fa fa-google-plus"></i>Sign up with Google</a>
                   </li>
                 </ul>
               </form>

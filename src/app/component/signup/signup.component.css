@@ -36,7 +36,13 @@
     background-size: cover;
 }
 .login-signup-wrapper{
-    padding: 20px 0;
+    padding: 40px 0;
+}
+.login-signup-form-controller li{
+    font-size: 15px;
+}
+.login-signup-form-controller li.terms-service-controller{
+    font-size: 13px;
 }
 .heading-tag h1{
     color: #18374c;

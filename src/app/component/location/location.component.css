@@ -92,6 +92,7 @@
     font-family: 'Helvetica';
     font-size: 17px;
     min-width:100px;
+    margin: 0 20px;
 }
 .next-btn:hover,.next-btn:active,.next-btn:focus,
 .prev-btn:hover,.prev-btn:active,.prev-btn:focus{
@@ -101,5 +102,21 @@
     background-color: #e0bf66;
 }
 .prev-btn{
-    background-color: #e4e8e8;
+    background-color: #dadddd;
+}
+.question-answer-icon-holder img{
+    width:55px;
+    height: 55px;
+}
+.question-answer-form ul{
+    width: 98%;
+    max-width: 350px;
+    display: table;
+    margin: 20px auto;
+}
+.question-answer-form ul li{
+    margin-bottom: 5px;
+}
+.common-controller-question-answer{
+    min-height: 100vh;
 }

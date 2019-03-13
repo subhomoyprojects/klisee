@@ -24,4 +24,5 @@ export class FlooringComponent implements OnInit {
   ngOnInit() {
   }
 
+  visible:boolean = false;
 }

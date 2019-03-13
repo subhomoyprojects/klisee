@@ -182,6 +182,9 @@ ul{
 .login-signup-form-controller .mat-form-field-appearance-legacy .mat-form-field-wrapper {
     padding-bottom: 1em;
 }
+.mat-form-field.mat-focused .mat-form-field-label{
+    color:#18374c;
+}
 /*------------ Home Input controller -----------------*/
 
 .project-picker .mat-form-field-underline,.project-picker .mat-form-field-subscript-wrapper{

@@ -9,9 +9,9 @@
         </div>
     </div>
   </section>
-  <section class="common-controller-question-answer state-pin-wrapper">
+  <section class="common-controller-question-answer state-pin-wrapper" *ngIf="!visible" [@slideInOut]>
     <div class="container">
-      <div class="row" *ngIf="!visible" [@slideInOut]>
+      <div class="row">
         <div class="col-12">
           <figure class="question-answer-holder">
             <div class="question-answer-title-holder">

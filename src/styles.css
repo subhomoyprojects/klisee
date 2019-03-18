@@ -247,3 +247,39 @@ ul{
         font-size: 15px;
     }
 }
+/* Flooring */
+.room-details .mat-input-element{
+    color: #fff;
+}
+.room-details .mat-form-field-appearance-legacy .mat-form-field-label{
+    color: #fff;
+}
+.room-details .mat-form-field-appearance-legacy .mat-form-field-underline{
+    background-color: #fff;
+}
+.room-details .mat-form-field.mat-form-field-invalid .mat-form-field-label{
+    color: #f44336;
+}
+.room-details .mat-form-field.mat-focused .mat-form-field-ripple {
+    background-color: #e0bf66;
+}
+.room-details .mat-input-element{
+    caret-color: #fff;
+}
+.room-details .mat-form-field-invalid .mat-input-element {
+    caret-color: #f44336;
+}
+.room-details .mat-radio-outer-circle{
+    border-color: #fff;
+}
+.room-details.mat-checkbox:not(.mat-checkbox-disabled).mat-accent .mat-checkbox-ripple .mat-ripple-element,
+.room-details .mat-checkbox-checked.mat-accent .mat-checkbox-background, 
+.room-details .mat-checkbox-indeterminate.mat-accent .mat-checkbox-background,
+.room-details .mat-radio-button.mat-accent .mat-radio-inner-circle, 
+.room-details .mat-radio-button.mat-accent .mat-radio-ripple .mat-ripple-element:not(.mat-radio-persistent-ripple), .room-details .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-persistent-ripple, 
+.room-details .mat-radio-button.mat-accent:active .mat-radio-persistent-ripple{
+    background-color: #fff;
+}
+.room-details .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {
+    border-color: #fff;
+}

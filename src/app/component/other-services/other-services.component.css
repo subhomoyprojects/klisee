@@ -21,10 +21,12 @@
     width: 98%;
     max-width: 800px;
     margin: 6% auto 20px;
-    min-height: 400px;
+    max-height: 430px;
+    min-height: 430px;
     box-shadow: 0 6px 100px rgb(213, 213, 213);
     border-radius: 10px;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
     border: 1px solid rgba(68,98,119,0.27);
 }
 .other-service-button-holder{

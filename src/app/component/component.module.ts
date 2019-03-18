@@ -9,6 +9,7 @@ import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { HeaderComponent } from './header/header.component';
 import { FlooringComponent } from './flooring/flooring.component';
+import { OtherServicesComponent } from './other-services/other-services.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FlooringComponent } from './flooring/flooring.component';
     LoginComponent,
     SignupComponent,
     HeaderComponent,
-    FlooringComponent
+    FlooringComponent,
+    OtherServicesComponent
   ],
   imports: [
     CommonModule,

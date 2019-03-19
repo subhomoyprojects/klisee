@@ -266,6 +266,9 @@ ul{
 .room-details .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {
     border-color: #fff;
 }
+.room-details .mat-input-element{
+    padding-bottom: 10px;
+}
 
 
 /* Media Query */

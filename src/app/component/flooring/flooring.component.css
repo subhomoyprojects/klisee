@@ -258,6 +258,24 @@
 .room-details .stor-room-details .room-holder .full-width{
     display: none;
 }
+.metarial-cost p{
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 0.3px;
+    margin-top: 1.2rem;
+    line-height: 26px;
+}
+.color-yellow{
+    color: #e0bf66;
+}
+.size-14{
+    font-size: 14px;
+}
+
+
+
+
 /* Media Query */
 
 @media (min-width:320px) and (max-width:767px){

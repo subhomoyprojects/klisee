@@ -10,6 +10,11 @@ import { SignupComponent } from './signup/signup.component';
 import { HeaderComponent } from './header/header.component';
 import { FlooringComponent } from './flooring/flooring.component';
 import { OtherServicesComponent } from './other-services/other-services.component';
+import { LocationComponent } from './location/location.component';
+import { WorkTypeComponent } from './work-type/work-type.component';
+import { YourRoomComponent } from './your-room/your-room.component';
+import { MaterialCostComponent } from './material-cost/material-cost.component';
+import { BudgetCalculationComponent } from './budget-calculation/budget-calculation.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +23,12 @@ import { OtherServicesComponent } from './other-services/other-services.componen
     SignupComponent,
     HeaderComponent,
     FlooringComponent,
-    OtherServicesComponent
+    OtherServicesComponent,
+    LocationComponent,
+    WorkTypeComponent,
+    YourRoomComponent,
+    MaterialCostComponent,
+    BudgetCalculationComponent
   ],
   imports: [
     CommonModule,

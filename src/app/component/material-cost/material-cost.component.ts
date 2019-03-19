@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormControl, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-material-cost',
@@ -6,8 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./material-cost.component.css']
 })
 export class MaterialCostComponent implements OnInit {
+  materialCost: FormGroup;
 
-  constructor() { }
+  constructor() { 
+    this.materialCost=new FormGroup({
+      casePackSize: new FormControl('', [Validators.required]),
+      pricePerSquerFeet: new FormControl ('', [Validators.required])
+    })
+  }
 
   ngOnInit() {
   }

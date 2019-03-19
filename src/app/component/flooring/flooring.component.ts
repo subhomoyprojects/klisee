@@ -1,22 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { trigger, style, animate, transition } from '@angular/animations';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-flooring',
   templateUrl: './flooring.component.html',
-  styleUrls: ['./flooring.component.css'],
-  animations: [
-    trigger('slideInOut', [
-      transition(':enter', [
-        style({transform: 'translateX(100%)'}),
-        animate('200ms ease-in', style({transform: 'translateX(0%)'}))
-      ]),
-      transition(':leave', [
-        animate('200ms ease-in', style({transform: 'translateX(100%)'}))
-      ])
-    ])
-  ]
+  styleUrls: ['./flooring.component.css']
 })
 export class FlooringComponent implements OnInit {
 
@@ -41,6 +29,4 @@ export class FlooringComponent implements OnInit {
 
   ngOnInit() {
   }
-
-  visible:boolean = false;
 }

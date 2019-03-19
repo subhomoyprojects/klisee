@@ -230,23 +230,6 @@ ul{
 .question-answer-holder .mat-form-field-underline,.question-answer-holder .mat-form-field-subscript-wrapper{
     display: none;
 }
-@media(min-width:320px) and (max-width:767px)
-{
-    .social-btn-holder li .facebook-btn span {
-        padding-left: 38px;
-    }
-    .social-btn-holder li .facebook-btn span {
-        line-height: 38px;
-        font-size: 15px;
-    }
-    .social-btn-holder li .twitter-btn span {
-        padding-left: 38px;
-    }
-    .social-btn-holder li .twitter-btn span {
-        line-height: 38px;
-        font-size: 15px;
-    }
-}
 /* Flooring */
 .room-details .mat-input-element{
     color: #fff;
@@ -282,4 +265,40 @@ ul{
 }
 .room-details .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {
     border-color: #fff;
+}
+
+
+/* Media Query */
+
+@media(min-width:320px) and (max-width:767px)
+{
+    .social-btn-holder li .facebook-btn span {
+        padding-left: 38px;
+    }
+    .social-btn-holder li .facebook-btn span {
+        line-height: 38px;
+        font-size: 15px;
+    }
+    .social-btn-holder li .twitter-btn span {
+        padding-left: 38px;
+    }
+    .social-btn-holder li .twitter-btn span {
+        line-height: 38px;
+        font-size: 15px;
+    }
+}
+@media(min-width:320px) and (max-width:600px){
+    .question-answer-form ul li .mat-checkbox-layout, .question-answer-form ul li .mat-radio-label-content {
+        font-size: 13px;
+        white-space: normal;
+    }
+    .mat-input-element{
+        font-size: 12px !important;
+    }
+    .mat-form-field-label{
+        font-size: 13px !important;
+    }
+    .mat-radio-label-content{
+        font-size: 12px !important;
+    }
 }

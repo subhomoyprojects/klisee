@@ -176,10 +176,10 @@
     margin-right: 15px;
 }
 .quarter-third-width{
-    width:75%;
+    width:70%;
 }
 .quarter-width{
-    width:25%;
+    width:30%;
 }
 .quarter-controller label{
     color: #fff;
@@ -258,3 +258,59 @@
 .room-details .stor-room-details .room-holder .full-width{
     display: none;
 }
+/* Media Query */
+
+@media (min-width:320px) and (max-width:767px){
+    .heading-tag h1 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .heading-tag h1 span {
+        font-size: 13px;
+        line-height: 15px;
+        margin-top: 10px;
+    }
+    .heading-tag h2 {
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+    }
+    .room-holder h3 {
+        font-size: 13px;
+        top: -9px;
+    }
+    .room-details .stor-room-details .room-holder h3 {
+        top: 12px;
+    }
+}
+@media (min-width:320px) and (max-width:600px)
+{
+    .full-width {
+        flex-direction: column;
+    }
+    .half-width {
+        width: 100%;
+        margin-right: 0;
+    }
+    .room-holder > div {
+        margin-bottom: 15px;
+    }
+    .quarter-controller label {
+        font-size: 12px;
+    }
+    .quarter-width{
+        width: 100%;
+    }
+    .quarter-controller .mat-radio-button {
+        width: auto;
+        text-align: left;
+    }
+    .quarter-controller .mat-radio-button:first-child {
+        margin-right: 15px;
+    }
+    .add-another-room {
+        margin-bottom: 15px;
+    }
+}
+
+/* Media Query */

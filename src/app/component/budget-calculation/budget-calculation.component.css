@@ -14,6 +14,9 @@
     margin: 0 auto 20px;
     min-height: 400px;
 }
+.budget-calculation-holder a{
+    color: #446277;
+}
 .budget-calculation-holder h2{
     font-size: 32px;
     color: #446277;

@@ -16,6 +16,7 @@ import { YourRoomComponent } from './your-room/your-room.component';
 import { MaterialCostComponent } from './material-cost/material-cost.component';
 import { BudgetCalculationComponent } from './budget-calculation/budget-calculation.component';
 import { ServiceHeadingComponent } from './service-heading/service-heading.component';
+import { BudgetAssumptionComponent } from './budget-assumption/budget-assumption.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ServiceHeadingComponent } from './service-heading/service-heading.compo
     YourRoomComponent,
     MaterialCostComponent,
     BudgetCalculationComponent,
-    ServiceHeadingComponent
+    ServiceHeadingComponent,
+    BudgetAssumptionComponent
   ],
   imports: [
     CommonModule,

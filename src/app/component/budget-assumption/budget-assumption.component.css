@@ -81,18 +81,23 @@
 /* Media Query */
 @media(min-width:320px) and (max-width:767px){
     .budget-calculation-holder {
-        padding: 30px 15px;
+        padding: 30px 5px;
     }
     .assumption-controller h3 {
         font-size: 18px;
         margin-top: 20px;
     }
     .assumption-holder li {
-        font-size: 14px;
-        margin-bottom: 15px;
-        display: flex;
-        color: #446277;
-        flex-direction: column;
+        font-size: 12px;
+    }
+    .assumption-holder li span:first-child{
+        width:65%;
+    }
+    .assumption-holder li span:last-child{
+        width:45%;
+    }
+    .assumption-holder li span:first-child::after {
+        right: auto;
     }
 }
 /* Media Query */

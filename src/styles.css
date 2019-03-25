@@ -272,7 +272,36 @@ ul{
 .relative{
     position: relative;
 }
-
+.nxt-prev-btn-holder{
+    display: flex;
+    justify-content: center;
+}
+.nxt-prev-btn-holder .next-btn,
+.nxt-prev-btn-holder .prev-btn{
+    display: inline-block;
+    padding: 1px 16px;
+    color: #18374c !important;
+    transition: all ease-in-out 0.3s;
+    font-family: 'Helvetica';
+    font-size: 17px;
+    min-width:100px;
+    margin: 0 20px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+    border: 1px solid;
+}
+.next-btn:hover,.next-btn:active,.next-btn:focus,
+.prev-btn:hover,.prev-btn:active,.prev-btn:focus{
+    text-decoration: none;
+    transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1);
+}
+.next-btn{
+    background: linear-gradient(90deg,#e6ad17,#f0d590,#e7b11b);
+    border-color: #d5ac3d !important;
+}
+.prev-btn{
+    background: linear-gradient(90deg,#c8c8c8,#e0e3e3,#c6c6c6);
+    border-color: #cfcfcf !important;
+}
 /* Media Query */
 
 @media(min-width:320px) and (max-width:767px)

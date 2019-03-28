@@ -18,6 +18,7 @@ import { BudgetCalculationComponent } from './budget-calculation/budget-calculat
 import { ServiceHeadingComponent } from './service-heading/service-heading.component';
 import { BudgetAssumptionComponent } from './budget-assumption/budget-assumption.component';
 import { StandardMaterialCostComponent } from './standard-material-cost/standard-material-cost.component';
+import { MyAccountComponent } from './my-account/my-account.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { StandardMaterialCostComponent } from './standard-material-cost/standard
     BudgetCalculationComponent,
     ServiceHeadingComponent,
     BudgetAssumptionComponent,
-    StandardMaterialCostComponent
+    StandardMaterialCostComponent,
+    MyAccountComponent
   ],
   imports: [
     CommonModule,

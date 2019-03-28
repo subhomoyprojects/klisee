@@ -12,6 +12,7 @@ import { MaterialCostComponent } from './material-cost/material-cost.component';
 import { BudgetCalculationComponent } from './budget-calculation/budget-calculation.component';
 import { BudgetAssumptionComponent } from './budget-assumption/budget-assumption.component';
 import { StandardMaterialCostComponent } from './standard-material-cost/standard-material-cost.component';
+import { MyAccountComponent } from './my-account/my-account.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -26,7 +27,8 @@ const routes: Routes = [
   {path:'materialcost', component:MaterialCostComponent},
   {path:'budgetcalculation', component:BudgetCalculationComponent},
   {path:'budget-assumtion',component:BudgetAssumptionComponent},
-  {path:'standard-material-cost', component:StandardMaterialCostComponent}
+  {path:'standard-material-cost', component:StandardMaterialCostComponent},
+  {path:'my-account', component:MyAccountComponent}
 ];
 
 @NgModule({

@@ -308,8 +308,12 @@ ul{
 }
 .metarial-cost-details .mat-form-field{
     font-size: 14px;
+    width: 160px;
 }
 .metarial-cost-details .mat-form-field-prefix, .metarial-cost-details .mat-form-field-suffix {
+    color: #fff;
+}
+.metarial-cost-details .mat-form-field-appearance-legacy .mat-hint {
     color: #fff;
 }
 

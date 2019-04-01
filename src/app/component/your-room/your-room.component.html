@@ -6,7 +6,7 @@
       <div class="row">
         <div class="col-12">
           <div class="room-details-holder heading-tag">
-            <h2>Tell us something about your room</h2>
+            <h2>Please tell us some details about the rooms being remodeled</h2>
             <form id="room" [formGroup]="myRoom">
               <ul class="room-details">
                 <li class="stor-room-details">
@@ -24,18 +24,18 @@
                     <div class="full-width">
                       <div class="half-width">
                         <mat-form-field>
-                          <input matInput placeholder="Length of the room" class="room_choose" formControlName="roomlength" required>
+                          <input matInput placeholder="Rough Length of the room in feet" class="room_choose" formControlName="roomlength" required>
                         </mat-form-field>
                       </div>
                       <div class="half-width">
                         <mat-form-field>
-                          <input matInput placeholder="Breadth of the room" class="room_choose" formControlName="roombreadth" required>
+                          <input matInput placeholder="Rough Depth of the room in feet" class="room_choose" formControlName="roombreadth" required>
                         </mat-form-field>
                       </div>
                     </div>
                     <div class="full-width">
                       <div class="quarter-controller quarter-third-width">
-                        <label>Do you need a demo?</label>
+                        <label>Will you need demolition of the original flooring?</label>
                       </div>
                       <div class="quarter-controller quarter-width">
                         <mat-radio-group formControlName="roomDemoNeed">
@@ -56,77 +56,63 @@
                       </div>
                     </div>
                     <div class="full-width">
-                      <div class="half-width">
-                        <mat-form-field>
-                          <input matInput placeholder="Doorways" class="room_choose" formControlName="roomdoorways" required>
-                        </mat-form-field>
-                      </div>
-                      <div class="half-width">
-                        <mat-form-field>
-                          <input matInput placeholder="Step downs" class="room_choose" formControlName="roomstepdowns" required>
-                        </mat-form-field>
-                      </div>
+                      <mat-form-field>
+                        <input matInput placeholder="How many doorways are there into this room?" class="room_choose" formControlName="roomdoorways" required>
+                      </mat-form-field>
                     </div>
                   </div>
                 </li>
                 <li class="active-room-details">
                   <div class="room-holder">
-                    <h3>Room 2</h3>
-                    <div class="edit-delete-room-holder">
-                      <button type="button" class="edit-room"><i class="fa fa-pencil"></i></button>
-                      <button type="button" class="delete-room"><i class="fa fa-trash"></i></button>
-                    </div>
-                    <div class="full-width">
-                      <mat-form-field>
-                        <input matInput placeholder="Room Name" class="room_choose" formControlName="roomname" required>
-                      </mat-form-field>
-                    </div>
-                    <div class="full-width">
-                      <div class="half-width">
+                      <h3>Room 2</h3>
+                      <div class="edit-delete-room-holder">
+                        <button type="button" class="edit-room"><i class="fa fa-pencil"></i></button>
+                        <button type="button" class="delete-room"><i class="fa fa-trash"></i></button>
+                      </div>
+                      <div class="full-width">
                         <mat-form-field>
-                          <input matInput placeholder="Length of the room" class="room_choose" formControlName="roomlength" required>
+                          <input matInput placeholder="Room Name" class="room_choose" formControlName="roomname" required>
                         </mat-form-field>
                       </div>
-                      <div class="half-width">
+                      <div class="full-width">
+                        <div class="half-width">
+                          <mat-form-field>
+                            <input matInput placeholder="Rough Length of the room in feet" class="room_choose" formControlName="roomlength" required>
+                          </mat-form-field>
+                        </div>
+                        <div class="half-width">
+                          <mat-form-field>
+                            <input matInput placeholder="Rough Depth of the room in feet" class="room_choose" formControlName="roombreadth" required>
+                          </mat-form-field>
+                        </div>
+                      </div>
+                      <div class="full-width">
+                        <div class="quarter-controller quarter-third-width">
+                          <label>Will you need demolition of the original flooring?</label>
+                        </div>
+                        <div class="quarter-controller quarter-width">
+                          <mat-radio-group formControlName="roomDemoNeed">
+                            <mat-radio-button value="yes" required >Yes</mat-radio-button>
+                            <mat-radio-button value="no" required >No</mat-radio-button>
+                          </mat-radio-group>
+                        </div>
+                      </div>
+                      <div class="full-width">
+                        <div class="quarter-controller quarter-third-width">
+                          <label>Do you want to remove or replace your baseboards?</label>
+                        </div>
+                        <div class="quarter-controller quarter-width">
+                          <mat-radio-group formControlName="roomBaseboardNeed">
+                            <mat-radio-button value="yes" required >Yes</mat-radio-button>
+                            <mat-radio-button value="no" required >No</mat-radio-button>
+                          </mat-radio-group>
+                        </div>
+                      </div>
+                      <div class="full-width">
                         <mat-form-field>
-                          <input matInput placeholder="Breadth of the room" class="room_choose" formControlName="roombreadth" required>
+                          <input matInput placeholder="How many doorways are there into this room?" class="room_choose" formControlName="roomdoorways" required>
                         </mat-form-field>
                       </div>
-                    </div>
-                    <div class="full-width">
-                      <div class="quarter-controller quarter-third-width">
-                        <label>Do you need a demo?</label>
-                      </div>
-                      <div class="quarter-controller quarter-width">
-                        <mat-radio-group formControlName="roomDemoNeed">
-                          <mat-radio-button value="yes" required >Yes</mat-radio-button>
-                          <mat-radio-button value="no" required >No</mat-radio-button>
-                        </mat-radio-group>
-                      </div>
-                    </div>
-                    <div class="full-width">
-                      <div class="quarter-controller quarter-third-width">
-                        <label>Do you want to remove or replace your baseboards?</label>
-                      </div>
-                      <div class="quarter-controller quarter-width">
-                        <mat-radio-group formControlName="roomBaseboardNeed">
-                          <mat-radio-button value="yes" required >Yes</mat-radio-button>
-                          <mat-radio-button value="no" required >No</mat-radio-button>
-                        </mat-radio-group>
-                      </div>
-                    </div>
-                    <div class="full-width">
-                      <div class="half-width">
-                        <mat-form-field>
-                          <input matInput placeholder="Doorways" class="room_choose" formControlName="roomdoorways" required>
-                        </mat-form-field>
-                      </div>
-                      <div class="half-width">
-                        <mat-form-field>
-                          <input matInput placeholder="Step downs" class="room_choose" formControlName="roomstepdowns" required>
-                        </mat-form-field>
-                      </div>
-                    </div>
                   </div>
                 </li>
               </ul>

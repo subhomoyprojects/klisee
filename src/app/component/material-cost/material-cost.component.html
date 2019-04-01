@@ -6,19 +6,31 @@
       <div class="row">
         <div class="col-12">
           <div class="room-details-holder metarial-cost heading-tag">
-            <h2>What will be your material cost?</h2>
-            <p>In light of your Selected service type and area underneath are the standard price for case pack size and Price per Square feet. You can utilize your very own information on the off chance that you wish.</p>
-            <form id="materialCost" method="POST" [formGroup]="materialCost">
-              <div class="room-details mt-5">
+            <h2>We will calculate your material budget</h2>
+            <p>If you know the exact product you are interested in you can provide the name, SKU, case pack and price per square foot. If not, we will default to a standard price for budgeting purposes</p>
+            <form id="materialCost" method="POST">
+              <div class="room-details metarial-cost-details mt-5">
                 <div class="full-width">
-                  <div class="half-width">
+                  <div class="quarter-width">
                     <mat-form-field>
-                      <input matInput placeholder="Case Pack Size" class="room_choose" formControlName="casePackSize" required>
+                      <input matInput placeholder="Case Pack Size" class="room_choose">
                     </mat-form-field>
                   </div>
-                  <div class="half-width">
+                  <div class="quarter-width">
                     <mat-form-field>
-                      <input matInput placeholder="Price per squre feet" class="room_choose" formControlName="pricePerSquerFeet" required>
+                      <input matInput placeholder="SKU" class="room_choose">
+                    </mat-form-field>
+                  </div>
+                  <div class="quarter-width">
+                    <mat-form-field>
+                      <input matInput placeholder="Manufacturer / Style" class="room_choose">
+                      <span matSuffix>Sf / Case</span>
+                    </mat-form-field>
+                  </div>
+                  <div class="quarter-width">
+                    <mat-form-field>
+                      <input matInput placeholder="Price per squre feet" class="room_choose">
+                      <span matSuffix>/ Sf</span>
                     </mat-form-field>
                   </div>
                 </div>

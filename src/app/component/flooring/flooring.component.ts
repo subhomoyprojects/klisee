@@ -9,8 +9,6 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 export class FlooringComponent implements OnInit {
 
   myRoom: FormGroup;
-  materialCost: FormGroup;
-
   constructor() {
     this.myRoom=new FormGroup({
       roomname: new FormControl('', [Validators.required]),
@@ -20,10 +18,6 @@ export class FlooringComponent implements OnInit {
       roomBaseboardNeed: new FormControl ('', [Validators.required]),
       roomdoorways: new FormControl ('', [Validators.required]),
       roomstepdowns: new FormControl ('', [Validators.required])
-    })
-    this.materialCost=new FormGroup({
-      casePackSize: new FormControl('', [Validators.required]),
-      pricePerSquerFeet: new FormControl ('', [Validators.required])
     })
   }
 

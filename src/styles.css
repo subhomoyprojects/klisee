@@ -306,14 +306,7 @@ ul{
     padding-bottom: 0;
     font-size: 12px;
 }
-.metarial-cost-details .mat-form-field{
-    font-size: 14px;
-    width: 160px;
-}
 .metarial-cost-details .mat-form-field-prefix, .metarial-cost-details .mat-form-field-suffix {
-    color: #fff;
-}
-.metarial-cost-details .mat-form-field-appearance-legacy .mat-hint {
     color: #fff;
 }
 
@@ -350,6 +343,9 @@ ul{
         font-size: 13px !important;
     }
     .mat-radio-label-content{
+        font-size: 12px !important;
+    }
+    .mat-form-field-prefix,.mat-form-field-suffix{
         font-size: 12px !important;
     }
 }

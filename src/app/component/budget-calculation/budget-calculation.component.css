@@ -66,10 +66,27 @@
     padding: 7px 0 0;
 }
 .budget-part li > div{
-    width:50%;
+    width:20%;
     font-size: 0.95rem;
     margin-bottom: 0;
-    color: rgba(0,0,0,0.55);
+    color: #446277;
+    text-align: right;
+}
+.budget-part li > div:first-child{
+    width:40%;
+    text-align: left;
+}
+.budget-part li.for-two-child > div{
+    width:50%;
+}
+.budget-part li.for-two-child:last-child > div{
+    width:20%;
+    text-align: right;
+    font-weight: bold;
+    color: #5d5c5c;
+}
+.budget-part li.for-two-child:last-child {
+    justify-content: flex-end;
 }
 .budget-part li > div h6{
     font-size: 0.95rem;

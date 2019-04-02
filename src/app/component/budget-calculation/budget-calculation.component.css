@@ -87,6 +87,9 @@
 }
 .budget-part li.for-two-child:last-child {
     justify-content: flex-end;
+    padding-top: 10px;
+    margin-top: 20px;
+    border-top: 1px solid #e3e3e3;
 }
 .budget-part li > div h6{
     font-size: 0.95rem;

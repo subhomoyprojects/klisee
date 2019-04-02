@@ -51,6 +51,7 @@
     border-radius: 6px;
     box-shadow: 5px 0 27px rgba(68,98,119,0.16);
     transition: all ease-in-out 0.3s;
+    text-transform: capitalize;
 }
 .other-service-button-holder li a.active,
 .other-service-button-holder li a:hover,

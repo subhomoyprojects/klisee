@@ -151,6 +151,16 @@
 .project-name-holder h4{
     font-size: 18px;
     margin-bottom: 0;
+    width: 100%;
+    max-width: 190px;
+    position: relative;
+    padding-left: 40px;
+    line-height: 32px;
+}
+.project-name-holder h4 > img{
+    position: absolute;
+    width:30px;
+    left: 0;
 }
 .project-name-holder .devider{
     margin: 0 20px;
@@ -178,7 +188,13 @@
     text-align: right;
 }
 .project-action-holder button:not(:last-child){
-    margin-right: 15px;
+    margin-right: 5px;
+}
+.project-action-holder button:first-child{
+    color: #46266e;
+}
+.project-action-holder button:last-child{
+    color: #f44336;
 }
 
 /*--- Media Start ----*/
@@ -222,5 +238,48 @@
     }
     .login-signup-wrapper {
         padding: 20px 0;
+    }
+}
+@media (min-width:320px) and (max-width:600px){
+    .user-heading-controller {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .user-heading-controller > div {
+        width: 100%;
+        text-align: center !important;
+        margin: 5px 0;
+    }
+    .recent-project-item-holder li{
+        flex-direction: column;
+    }
+    .recent-project-item-holder li > div {
+        width: 100%;
+    }
+    .project-name-holder {
+        flex-direction: column;
+    }
+    .project-name-holder .devider{
+        display: none;
+    }
+    .project-name-holder h4 {
+        margin-bottom: 10px;
+    }
+    .price {
+        font-size: 14px;
+    }
+    .project-action-holder {
+        text-align: center;
+    }
+}
+@media (min-width:601px) and (max-width:991px){
+    .recent-project-item-holder li > div:first-child {
+        width: 85%;
+    }
+    .recent-project-item-holder li > div:last-child {
+        width: 15%;
+    }
+    .price {
+        font-size: 14px;
     }
 }

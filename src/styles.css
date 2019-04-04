@@ -309,8 +309,33 @@ ul{
 .metarial-cost-details .mat-form-field-prefix, .metarial-cost-details .mat-form-field-suffix {
     color: #fff;
 }
+.user-heading-controller .mat-form-field-flex > .mat-form-field-infix { padding: 0.4em 0px !important;}
+.user-heading-controller .mat-form-field-label-wrapper { top: -1.5em; }
 
-
+.user-heading-controller .mat-form-field-appearance-outline.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label {
+    transform: translateY(-1.1em) scale(.75);
+}
+.user-heading-controller .mat-form-field-appearance-outline .mat-form-field-wrapper{
+    padding-bottom: 0;
+}
+.user-heading-controller .mat-form-field{
+    max-width: 300px;
+}
+.project-action-holder .mat-raised-button{
+    min-width: 20px;
+    padding: 0;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+.project-action-holder .mat-raised-button:not([class*="mat-elevation-z"]){
+    box-shadow: none;
+    background-color: transparent;
+}
+.user-heading-controller .mat-form-field-appearance-outline .mat-form-field-outline {
+    color: rgba(0,0,0,.50);
+}
 
 /* Media Query */
 

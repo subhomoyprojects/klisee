@@ -336,6 +336,20 @@ ul{
 .user-heading-controller .mat-form-field-appearance-outline .mat-form-field-outline {
     color: rgba(0,0,0,.50);
 }
+.flooring-budget-holder .mat-progress-spinner.mat-progress-spinner-indeterminate-animation[mode="indeterminate"]{
+    width:30px !important;
+    height: 30px !important;
+    position: absolute;
+    right: 20px;
+    top: -10px;
+}
+.flooring-budget-holder .mat-progress-spinner svg{
+    width:30px !important;
+    height: 30px !important;
+}
+.relative{
+    position: relative;
+}
 
 /* Media Query */
 

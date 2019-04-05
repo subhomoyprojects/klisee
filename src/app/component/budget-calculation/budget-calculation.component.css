@@ -14,8 +14,11 @@
     margin: 0 auto 20px;
     min-height: 400px;
 }
-.budget-calculation-holder a{
+.budget-calculation-holder a, .budget-calculation-holder button{
     color: #446277;
+}
+.budget-calculation-holder button{
+    padding: 0;
 }
 .budget-calculation-holder h2{
     font-size: 32px;

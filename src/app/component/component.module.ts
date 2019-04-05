@@ -20,6 +20,8 @@ import { BudgetAssumptionComponent } from './budget-assumption/budget-assumption
 import { StandardMaterialCostComponent } from './standard-material-cost/standard-material-cost.component';
 import { MyAccountComponent } from './my-account/my-account.component';
 import { ModalComponent } from './budget-calculation/budget-calculation.component';
+import { ForgetPasswordComponent } from './forget-password/forget-password.component';
+import { ResetPasswordComponent } from './reset-password/reset-password.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { ModalComponent } from './budget-calculation/budget-calculation.componen
     BudgetAssumptionComponent,
     StandardMaterialCostComponent,
     MyAccountComponent,
-    ModalComponent
+    ModalComponent,
+    ForgetPasswordComponent,
+    ResetPasswordComponent
   ],
   entryComponents: [ModalComponent],
   imports: [

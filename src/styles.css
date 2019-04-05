@@ -358,6 +358,16 @@ input[type=number]::-webkit-inner-spin-button {
 input[type=number] {
     -moz-appearance:textfield;
 }
+.mat-dialog-container{
+    padding: 0 !important;
+}
+.assumptions-modal{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+
 
 /* Media Query */
 
@@ -376,6 +386,10 @@ input[type=number] {
     .social-btn-holder li .twitter-btn span {
         line-height: 38px;
         font-size: 15px;
+    }
+    .mat-dialog-container{
+        margin: 0 auto;
+        max-width: 90%;
     }
 }
 @media(min-width:320px) and (max-width:600px){

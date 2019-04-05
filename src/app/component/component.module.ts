@@ -19,6 +19,7 @@ import { ServiceHeadingComponent } from './service-heading/service-heading.compo
 import { BudgetAssumptionComponent } from './budget-assumption/budget-assumption.component';
 import { StandardMaterialCostComponent } from './standard-material-cost/standard-material-cost.component';
 import { MyAccountComponent } from './my-account/my-account.component';
+import { ModalComponent } from './budget-calculation/budget-calculation.component';
 
 @NgModule({
   declarations: [
@@ -36,8 +37,10 @@ import { MyAccountComponent } from './my-account/my-account.component';
     ServiceHeadingComponent,
     BudgetAssumptionComponent,
     StandardMaterialCostComponent,
-    MyAccountComponent
+    MyAccountComponent,
+    ModalComponent
   ],
+  entryComponents: [ModalComponent],
   imports: [
     CommonModule,
     ComponentRoutingModule,

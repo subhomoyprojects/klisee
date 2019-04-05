@@ -8,6 +8,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatCheckboxModule} from '@angular/material/checkbox'; 
 import {MatRadioModule} from '@angular/material/radio'; 
 import {MatTooltipModule} from '@angular/material/tooltip'; 
+import {MatDialogModule} from '@angular/material/dialog'; 
 
 @NgModule({
   declarations: [],
@@ -20,7 +21,8 @@ import {MatTooltipModule} from '@angular/material/tooltip';
     MatButtonModule,
     MatCheckboxModule,
     MatRadioModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatDialogModule
   ],
   exports: [
     CommonModule,
@@ -31,7 +33,8 @@ import {MatTooltipModule} from '@angular/material/tooltip';
     MatButtonModule,
     MatCheckboxModule,
     MatRadioModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatDialogModule
   ]
 })
 export class MetarialModule { }

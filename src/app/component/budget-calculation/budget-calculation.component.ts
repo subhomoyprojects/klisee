@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {MatDialog} from '@angular/material';
 
 @Component({
   selector: 'app-budget-calculation',
@@ -7,9 +8,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BudgetCalculationComponent implements OnInit {
 
-  constructor() { }
+  constructor(public dialog: MatDialog) { }
+  openDialog() {
+    const dialogRef = this.dialog.open(ModalComponent,{
+      maxWidth: '700px'
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(`Dialog result: ${result}`);
+    });
+  }
 
   ngOnInit() {
   }
 
 }
+
+@Component({
+  selector: 'app-modal',
+  templateUrl: './modal.html',
+  styleUrls: ['./budget-calculation.component.css']
+})
+export class ModalComponent {}

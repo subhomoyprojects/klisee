@@ -366,6 +366,17 @@ input[type=number] {
     margin: 0 !important;
 }
 
+/*8-4-2019*/
+
+.countertop-details.room-details .mat-input-element{
+    padding-bottom: 0;
+}
+.countertop-details .mat-form-field-prefix, .countertop-details .mat-form-field-suffix{
+    color: #fff;
+}
+
+/*8-4-2019*/
+
 
 
 

@@ -23,6 +23,7 @@ import { ModalComponent } from './budget-calculation/budget-calculation.componen
 import { ForgetPasswordComponent } from './forget-password/forget-password.component';
 import { ResetPasswordComponent } from './reset-password/reset-password.component';
 import { CountertopsComponent } from './countertops/countertops/countertops.component';
+import { CountertopDetailsComponent } from './countertops/countertop-details/countertop-details.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { CountertopsComponent } from './countertops/countertops/countertops.comp
     ModalComponent,
     ForgetPasswordComponent,
     ResetPasswordComponent,
-    CountertopsComponent
+    CountertopsComponent,
+    CountertopDetailsComponent
   ],
   entryComponents: [ModalComponent],
   imports: [

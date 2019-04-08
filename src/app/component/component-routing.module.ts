@@ -15,6 +15,7 @@ import { StandardMaterialCostComponent } from './standard-material-cost/standard
 import { MyAccountComponent } from './my-account/my-account.component';
 import { ForgetPasswordComponent } from './forget-password/forget-password.component';
 import { ResetPasswordComponent } from './reset-password/reset-password.component';
+import { CountertopsComponent } from './countertops/countertops/countertops.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -33,6 +34,7 @@ const routes: Routes = [
   {path:'my-account', component:MyAccountComponent},
   { path: 'forget-password', component: ForgetPasswordComponent},
   { path: 'reset-password', component: ResetPasswordComponent},
+  {path: 'countertop', component:CountertopsComponent},
 ];
 
 @NgModule({

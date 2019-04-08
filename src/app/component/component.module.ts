@@ -22,6 +22,7 @@ import { MyAccountComponent } from './my-account/my-account.component';
 import { ModalComponent } from './budget-calculation/budget-calculation.component';
 import { ForgetPasswordComponent } from './forget-password/forget-password.component';
 import { ResetPasswordComponent } from './reset-password/reset-password.component';
+import { CountertopsComponent } from './countertops/countertops/countertops.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { ResetPasswordComponent } from './reset-password/reset-password.componen
     MyAccountComponent,
     ModalComponent,
     ForgetPasswordComponent,
-    ResetPasswordComponent
+    ResetPasswordComponent,
+    CountertopsComponent
   ],
   entryComponents: [ModalComponent],
   imports: [

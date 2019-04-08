@@ -10,6 +10,8 @@ export class CountertopDetailsComponent implements OnInit {
   
   counterTopDetails: FormGroup;
 
+  isActive: boolean;
+
   constructor() { 
     this.counterTopDetails=new FormGroup({
       oldCounterRemoved: new FormControl('', [Validators.required]),
@@ -23,6 +25,7 @@ export class CountertopDetailsComponent implements OnInit {
 
 
   ngOnInit() {
+    this.isActive=false;
   }
 
 }

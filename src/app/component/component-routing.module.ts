@@ -18,6 +18,7 @@ import { ResetPasswordComponent } from './reset-password/reset-password.componen
 import { CountertopsComponent } from './countertops/countertops/countertops.component';
 import { CountertopDetailsComponent } from './countertops/countertop-details/countertop-details.component';
 import { FloorplanComponent } from './countertops/floorplan/floorplan.component';
+import { PeninsulaMeasureComponent } from './countertops/peninsula-measure/peninsula-measure.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -38,7 +39,8 @@ const routes: Routes = [
   { path: 'reset-password', component: ResetPasswordComponent},
   {path: 'countertop', component:CountertopsComponent},
   {path:'countertop-details', component:CountertopDetailsComponent},
-  {path:'countertop-floor-plan',component:FloorplanComponent}
+  {path:'countertop-floor-plan',component:FloorplanComponent},
+  {path:'peninsula-measure', component: PeninsulaMeasureComponent}
 ];
 
 @NgModule({

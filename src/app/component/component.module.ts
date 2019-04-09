@@ -25,6 +25,7 @@ import { ResetPasswordComponent } from './reset-password/reset-password.componen
 import { CountertopsComponent } from './countertops/countertops/countertops.component';
 import { CountertopDetailsComponent } from './countertops/countertop-details/countertop-details.component';
 import { FloorplanComponent } from './countertops/floorplan/floorplan.component';
+import { PeninsulaMeasureComponent } from './countertops/peninsula-measure/peninsula-measure.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { FloorplanComponent } from './countertops/floorplan/floorplan.component'
     ResetPasswordComponent,
     CountertopsComponent,
     CountertopDetailsComponent,
-    FloorplanComponent
+    FloorplanComponent,
+    PeninsulaMeasureComponent
   ],
   entryComponents: [ModalComponent],
   imports: [

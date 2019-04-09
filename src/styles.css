@@ -74,6 +74,9 @@ ul{
     list-style-type: none;
     padding-left: 0;
 }
+img{
+    max-width: 100%;
+}
 .facebook-btn{
     background: linear-gradient(90deg, #4264a9,#324a8b);
     color: #fff;

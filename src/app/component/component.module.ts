@@ -24,6 +24,7 @@ import { ForgetPasswordComponent } from './forget-password/forget-password.compo
 import { ResetPasswordComponent } from './reset-password/reset-password.component';
 import { CountertopsComponent } from './countertops/countertops/countertops.component';
 import { CountertopDetailsComponent } from './countertops/countertop-details/countertop-details.component';
+import { FloorplanComponent } from './countertops/floorplan/floorplan.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { CountertopDetailsComponent } from './countertops/countertop-details/cou
     ForgetPasswordComponent,
     ResetPasswordComponent,
     CountertopsComponent,
-    CountertopDetailsComponent
+    CountertopDetailsComponent,
+    FloorplanComponent
   ],
   entryComponents: [ModalComponent],
   imports: [

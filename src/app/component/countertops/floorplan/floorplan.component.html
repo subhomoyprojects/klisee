@@ -1,0 +1,68 @@
+<app-header></app-header>
+<main class="body-wrapper">
+  <section class="main-heading-wrapper">
+    <div class="container">
+      <div class="row">
+          <div class="col-12 heading-tag collect-pin">
+            <!-- Let's get started creating your -->
+            <h1> <strong>Countertops Remodel Budget!</strong><span>Please help Klisee with the following details in order to create the most accurate budget:</span></h1>
+          </div>
+        </div>
+    </div>
+  </section>
+  <section class="budget-calculation-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="budget-calculation-holder">
+            <h2 class="text-center">Make rectangles by measuring each length of Countertop</h2>
+            <div class="row">
+              <div class="col-12 col-sm-6 col-md-7 plan-holder">
+                <img src="assets/images/plan.png" class="mt-2" alt="Countertop Measuring Plan">
+              </div>
+              <div class="col-12 col-sm-6 col-md-5 plan-details-holder">
+                <div class="plan-size-input-holder">
+                  <mat-form-field>
+                    <input matInput placeholder="Input">
+                    <span matPrefix>(a)&nbsp;</span>
+                    <span matSuffix>Inches</span>
+                  </mat-form-field>
+                  <mat-form-field>
+                    <input matInput placeholder="Input">
+                    <span matPrefix>(b)&nbsp;</span>
+                    <span matSuffix>Inches</span>
+                  </mat-form-field>
+                  <mat-form-field>
+                    <input matInput placeholder="Input">
+                    <span matPrefix>(c)&nbsp;</span>
+                    <span matSuffix>Inches</span>
+                  </mat-form-field>
+                  <mat-form-field>
+                    <input matInput placeholder="Input">
+                    <span matPrefix>(d)&nbsp;</span>
+                    <span matSuffix>Inches</span>
+                  </mat-form-field>
+                  <mat-form-field>
+                    <input matInput placeholder="Input">
+                    <span matPrefix>(e)&nbsp;</span>
+                    <span matSuffix>Inches</span>
+                  </mat-form-field>
+                  <mat-form-field>
+                    <input matInput placeholder="Input">
+                    <span matPrefix>(f)&nbsp;</span>
+                    <span matSuffix>Inches</span>
+                  </mat-form-field>
+                </div>
+                <!-- <div class="text-right"><button class="add-another-room" type="button">+ Add Another Length</button></div> -->
+              </div>
+            </div>
+            <div class="nxt-prev-btn-holder mt-4 mb-4">
+              <a routerLink="/yourroom" mat-button class="prev-btn">Previous</a>
+              <a routerLink="/signup" mat-button class="next-btn">Save Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

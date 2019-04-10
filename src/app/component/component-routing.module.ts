@@ -19,6 +19,7 @@ import { CountertopsComponent } from './countertops/countertops/countertops.comp
 import { CountertopDetailsComponent } from './countertops/countertop-details/countertop-details.component';
 import { FloorplanComponent } from './countertops/floorplan/floorplan.component';
 import { PeninsulaMeasureComponent } from './countertops/peninsula-measure/peninsula-measure.component';
+import { CounterLocationComponent } from './countertops/counter-location/counter-location.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -40,7 +41,8 @@ const routes: Routes = [
   {path: 'countertop', component:CountertopsComponent},
   {path:'countertop-details', component:CountertopDetailsComponent},
   {path:'countertop-floor-plan',component:FloorplanComponent},
-  {path:'peninsula-measure', component: PeninsulaMeasureComponent}
+  {path:'peninsula-measure', component: PeninsulaMeasureComponent},
+  {path:'counter-location', component:CounterLocationComponent}
 ];
 
 @NgModule({

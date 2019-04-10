@@ -1,0 +1,39 @@
+<app-header></app-header>
+<main class="body-wrapper">
+  <section class="main-heading-wrapper">
+    <div class="container">
+      <div class="row">
+          <div class="col-12 heading-tag collect-pin">
+            <h1><strong>Countertops Remodel Budget!</strong><span>Please help Klisee with the following details in order to create the most accurate budget</span></h1>
+          </div>
+        </div>
+    </div>
+  </section>
+  <section class="common-controller-question-answer state-pin-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <figure class="question-answer-holder">
+            <div class="question-answer-title-holder">
+              <h2>In order to calculate your labor rates we will need the zip code of your project’s location</h2>
+              <div class="question-answer-icon-holder">
+                <i class="fa fa-map-marker"></i>
+              </div>
+            </div>
+            <figcaption>
+              <form class="question-answer-form">
+                <mat-form-field class="common-style-question-answer put-your-pin">
+                  <input type="number" matInput placeholder="Enter Zip Code">
+                </mat-form-field>
+                <div class="nxt-prev-btn-holder">
+                  <a routerLink="/countertop" mat-button class="prev-btn">Previous</a>
+                  <a routerLink="/countertop-details"  mat-button class="next-btn">Next</a>
+                </div>
+              </form>              
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

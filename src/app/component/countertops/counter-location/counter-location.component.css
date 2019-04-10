@@ -4,7 +4,6 @@
     min-height: calc(100vh - 70px);
     background-attachment: fixed;
 }
-/* For Heading */
 .heading-tag h1{
     color: #446277;
     font-size: 36px;
@@ -32,7 +31,6 @@
 }
 
 /* Media Query */
-/* For Heading */
 .question-answer-holder{
     background-color: rgba(255,255,255,0.8);
     /* border: 1px solid #b9b9b9; */
@@ -83,7 +81,19 @@
 .question-answer-holder figcaption{
     padding: 30px;
 }
-
+.question-answer-holder input{
+    padding: 7px;
+    background-color: #e4e8e8;
+    border-radius: 6px;
+    min-height: 50px;
+    border: 1px solid #ccc;
+}
+.common-style-question-answer{
+    width: 98%;
+    max-width: 350px;
+    display: table;
+    margin: 0 auto;
+}
 .nxt-prev-btn-holder{
     display: flex;
     justify-content: center;
@@ -117,13 +127,4 @@
 .question-answer-icon-holder img{
     width:55px;
     height: 55px;
-}
-.question-answer-form ul{
-    width: 98%;
-    max-width: 350px;
-    display: table;
-    margin: 20px auto;
-}
-.question-answer-form ul li{
-    margin-bottom: 5px;
 }

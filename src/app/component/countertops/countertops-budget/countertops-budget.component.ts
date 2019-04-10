@@ -12,7 +12,8 @@ export class CountertopsBudgetComponent implements OnInit {
 
   openDialog() {
     const dialogRef = this.dialog.open(CountertopModalComponent,{
-      maxWidth: '700px'
+      maxWidth: '750px',
+      width:'100%'
     });
 
     dialogRef.afterClosed().subscribe(result => {

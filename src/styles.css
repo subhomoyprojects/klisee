@@ -379,8 +379,9 @@ input[type=number] {
 }
 
 /*8-4-2019*/
-
-
+.cdk-overlay-pane{
+    margin: 0 auto !important;
+}
 
 
 /* Media Query */

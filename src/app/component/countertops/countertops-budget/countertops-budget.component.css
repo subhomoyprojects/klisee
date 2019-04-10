@@ -232,6 +232,7 @@
     border: none;
     background: none;
     min-height: 300px;
+    max-width: none;
 }
 .assumptions-modal .back-to-page{
     padding: 0;
@@ -242,6 +243,11 @@
     width: 25px;
     height: 25px;
     line-height: 25px;
+}
+.assumption-holder li small{
+    color: rgba(68, 98, 119, 0.7);
+    margin-left: 10px;
+    font-size: 12px;
 }
 
 /* Media Query */

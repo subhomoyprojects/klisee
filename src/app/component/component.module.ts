@@ -27,6 +27,8 @@ import { CountertopDetailsComponent } from './countertops/countertop-details/cou
 import { FloorplanComponent } from './countertops/floorplan/floorplan.component';
 import { PeninsulaMeasureComponent } from './countertops/peninsula-measure/peninsula-measure.component';
 import { CounterLocationComponent } from './countertops/counter-location/counter-location.component';
+import { CountertopsBudgetComponent } from './countertops/countertops-budget/countertops-budget.component';
+import { CountertopModalComponent } from './countertops/countertops-budget/countertops-budget.component'
 
 @NgModule({
   declarations: [
@@ -52,9 +54,11 @@ import { CounterLocationComponent } from './countertops/counter-location/counter
     CountertopDetailsComponent,
     FloorplanComponent,
     PeninsulaMeasureComponent,
-    CounterLocationComponent
+    CounterLocationComponent,
+    CountertopsBudgetComponent,
+    CountertopModalComponent
   ],
-  entryComponents: [ModalComponent],
+  entryComponents: [ModalComponent,CountertopModalComponent],
   imports: [
     CommonModule,
     ComponentRoutingModule,

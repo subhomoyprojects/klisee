@@ -1,0 +1,83 @@
+<app-header></app-header>
+<main class="body-wrapper">
+  <section class="main-heading-wrapper">
+    <div class="container">
+      <div class="row">
+          <div class="col-12 heading-tag collect-pin">
+            <h1><strong>Countertops Remodel Budget!</strong><span>Please help Klisee with the following details in order to create the most accurate budget</span></h1>
+          </div>
+        </div>
+    </div>
+  </section>
+  <section class="budget-calculation-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="budget-calculation-holder">
+            <h2 class="text-center">Here is your <strong class="text-capitalize">Countertops Remodel</strong> Budget </h2>
+            <div class="flooring-budget-holder">
+              <h5>Materials Budget:</h5>
+              <ul class="budget-part">
+                <li>
+                  <div><button class="text-left" (click)="openDialog()" matTooltip="Know Your Assumptions" matTooltipPosition="right">Mid-Priced Granite or Quartz Installed</button></div>
+                  <div>56 sf</div>
+                  <div>$54.50 /sf</div>
+                  <div>$3,052.00</div>
+                </li>
+                <li>
+                  <div><button (click)="openDialog()" matTooltip="Know Your Assumptions" matTooltipPosition="right">Sink Budget</button></div>
+                  <div></div>
+                  <div></div>
+                  <div>$300.00</div>
+                </li>
+                <li class="for-two-child">
+                  <div>Total Material Cost</div>
+                  <div>$1,481.83</div>
+                </li>
+              </ul>
+            </div>
+            <div class="flooring-budget-holder">
+              <h5>Installation Budget:</h5>
+              <ul class="budget-part">
+                <!-- <li>
+                  <div><button (click)="openDialog()" matTooltip="Know Your Assumptions" matTooltipPosition="right">Sink  Cutout</button></div>
+                  <div></div>
+                  <div></div>
+                  <div>$250.00</div>
+                </li> -->
+                <li class="for-two-child">
+                  <div><button (click)="openDialog()" matTooltip="Know Your Assumptions" matTooltipPosition="right">Sink  Cutout</button></div>
+                  <div>$250.00</div>
+                </li>
+                <li class="for-two-child">
+                  <div><button (click)="openDialog()" matTooltip="Know Your Assumptions" matTooltipPosition="right">Removal & Disposal of Original Countertops</button></div>
+                  <div>$200.00</div>
+                </li>
+                <li class="for-two-child">
+                  <div><button (click)="openDialog()" matTooltip="Know Your Assumptions" matTooltipPosition="right">Plumber to reconnect</button></div>
+                  <div>$650.00</div>
+                </li>
+                <li class="for-two-child">
+                  <div>Total Material Cost</div>
+                  <div>$822.00</div>
+                </li>
+              </ul>
+            </div>
+            <div class="budget-total-holder">
+              <div>Total Budget</div>
+              <div>$2,303.83</div>
+            </div>
+            <div class="mt-1 budget-total-holder">
+              <div>Average</div>
+              <div>$12.13</div>
+            </div>
+            <div class="nxt-prev-btn-holder mt-4 mb-4">
+              <a routerLink="/peninsula-measure" mat-button class="prev-btn">Previous</a>
+              <a routerLink="/signup" mat-button class="next-btn">Save Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

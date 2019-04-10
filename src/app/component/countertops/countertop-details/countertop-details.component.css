@@ -196,11 +196,13 @@
     margin-top: 0;
     position: relative;
     top: 0;
-    transition: all ease-in-out 0.5s;
+    bottom: 0;
+    transition: all 0.5s cubic-bezier(0, 1, 0.5, 1);
     transform: scaleY(0);
     visibility: hidden;
     height: 0;
     opacity: 0;
+    transform-origin: 0% 0%;
 }
 .sink-arrow{
     position: absolute;
@@ -227,7 +229,6 @@
     padding: 15px;
     margin-top: 20px;
     opacity: 1;
-    top: 0;
 }
 
 /* Media Query */

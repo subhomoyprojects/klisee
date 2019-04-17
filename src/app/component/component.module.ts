@@ -28,7 +28,10 @@ import { FloorplanComponent } from './countertops/floorplan/floorplan.component'
 import { PeninsulaMeasureComponent } from './countertops/peninsula-measure/peninsula-measure.component';
 import { CounterLocationComponent } from './countertops/counter-location/counter-location.component';
 import { CountertopsBudgetComponent } from './countertops/countertops-budget/countertops-budget.component';
-import { CountertopModalComponent } from './countertops/countertops-budget/countertops-budget.component'
+import { CountertopModalComponent } from './countertops/countertops-budget/countertops-budget.component';
+import { CabinetsComponent } from './cabinets/cabinets/cabinets.component';
+import { CabinetsLocationComponent } from './cabinets/cabinets-location/cabinets-location.component';
+import { CommonKitchenLayoutsComponent } from './cabinets/common-kitchen-layouts/common-kitchen-layouts.component'
 
 @NgModule({
   declarations: [
@@ -56,7 +59,10 @@ import { CountertopModalComponent } from './countertops/countertops-budget/count
     PeninsulaMeasureComponent,
     CounterLocationComponent,
     CountertopsBudgetComponent,
-    CountertopModalComponent
+    CountertopModalComponent,
+    CabinetsComponent,
+    CabinetsLocationComponent,
+    CommonKitchenLayoutsComponent
   ],
   entryComponents: [ModalComponent,CountertopModalComponent],
   imports: [

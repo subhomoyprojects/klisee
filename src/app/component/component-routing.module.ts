@@ -21,6 +21,9 @@ import { FloorplanComponent } from './countertops/floorplan/floorplan.component'
 import { PeninsulaMeasureComponent } from './countertops/peninsula-measure/peninsula-measure.component';
 import { CounterLocationComponent } from './countertops/counter-location/counter-location.component';
 import { CountertopsBudgetComponent } from './countertops/countertops-budget/countertops-budget.component';
+import { CabinetsComponent } from './cabinets/cabinets/cabinets.component';
+import { CabinetsLocationComponent } from './cabinets/cabinets-location/cabinets-location.component';
+import { CommonKitchenLayoutsComponent } from './cabinets/common-kitchen-layouts/common-kitchen-layouts.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -44,7 +47,10 @@ const routes: Routes = [
   {path:'countertop-floor-plan',component:FloorplanComponent},
   {path:'peninsula-measure', component: PeninsulaMeasureComponent},
   {path:'counter-location', component:CounterLocationComponent},
-  {path:'countertop-budget', component:CountertopsBudgetComponent}
+  {path:'countertop-budget', component:CountertopsBudgetComponent},
+  {path:'cabinets', component:CabinetsComponent},
+  {path:'cabinets-location', component: CabinetsLocationComponent},
+  {path:'common-kitchen-layouts', component:CommonKitchenLayoutsComponent}
 ];
 
 @NgModule({

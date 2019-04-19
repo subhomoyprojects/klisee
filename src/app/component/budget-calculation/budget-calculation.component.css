@@ -17,7 +17,7 @@
 .budget-calculation-holder a:not(.back-to-page), .budget-calculation-holder button:not(.back-to-page){
     color: #446277;
 }
-.budget-calculation-holder button{
+.budget-calculation-holder button:not(.next-btn):not(.prev-btn){
     padding: 0;
 }
 .budget-calculation-holder h2{
@@ -233,6 +233,9 @@
     background: none;
     min-height: 300px;
 }
+.assumptions-modal .edit-name-controller {
+    min-height: 200px;
+}
 .assumptions-modal .back-to-page{
     padding: 0;
     top: 10px;
@@ -242,6 +245,9 @@
     width: 25px;
     height: 25px;
     line-height: 25px;
+}
+.edit-name-controller h3{
+    font-size: 20px;
 }
 
 /* Media Query */

@@ -19,6 +19,16 @@ export class BudgetCalculationComponent implements OnInit {
     });
   }
 
+  openEditNameModalDialog() {
+    const dialogRef = this.dialog.open(EditNameModalComponent,{
+      maxWidth: '700px'
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(`Dialog result: ${result}`);
+    });
+  }
+
   ngOnInit() {
   }
 
@@ -30,3 +40,10 @@ export class BudgetCalculationComponent implements OnInit {
   styleUrls: ['./budget-calculation.component.css']
 })
 export class ModalComponent {}
+
+@Component({
+  selector: 'app-edit-name-modal',
+  templateUrl: './edit-name-modal.html',
+  styleUrls: ['./budget-calculation.component.css']
+})
+export class EditNameModalComponent {}

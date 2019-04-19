@@ -9,6 +9,7 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatRadioModule} from '@angular/material/radio'; 
 import {MatTooltipModule} from '@angular/material/tooltip'; 
 import {MatDialogModule} from '@angular/material/dialog'; 
+import {MatButtonToggleModule} from '@angular/material/button-toggle'; 
 
 @NgModule({
   declarations: [],
@@ -22,7 +23,8 @@ import {MatDialogModule} from '@angular/material/dialog';
     MatCheckboxModule,
     MatRadioModule,
     MatTooltipModule,
-    MatDialogModule
+    MatDialogModule,
+    MatButtonToggleModule
   ],
   exports: [
     CommonModule,
@@ -34,7 +36,8 @@ import {MatDialogModule} from '@angular/material/dialog';
     MatCheckboxModule,
     MatRadioModule,
     MatTooltipModule,
-    MatDialogModule
+    MatDialogModule,
+    MatButtonToggleModule
   ]
 })
 export class MetarialModule { }

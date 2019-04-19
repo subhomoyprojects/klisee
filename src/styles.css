@@ -69,6 +69,9 @@ button,a{
     background-color: transparent;
     border: none;
 }
+a,button,a:active,button:active,a:focus,button:focus{
+    outline: none;
+}
 a:hover{
     text-decoration: none;
 }
@@ -386,6 +389,68 @@ input[type=number] {
 /*8-4-2019*/
 .cdk-overlay-pane{
     margin: 0 auto !important;
+}
+.kitchen-layout-holder .mat-button-toggle-appearance-standard,
+.kitchen-layout-holder .mat-button-toggle-checked,
+.kitchen-layout-holder .mat-button-toggle-appearance-standard .mat-button-toggle-focus-overlay,
+.kitchen-layout-holder .mat-button-toggle-checked .mat-button-toggle-focus-overlay{
+    background-color: transparent;
+}
+.kitchen-layout-holder .mat-button-toggle-ripple{
+    display: none;
+}
+.kitchen-layout-holder .mat-button-toggle-checked .mat-button-toggle-focus-overlay{
+    border-bottom: none;
+}
+.kitchen-layout-holder .mat-button-toggle-button{
+    transition: all ease-in-out 0.3s;
+}
+.kitchen-layout-holder li .mat-button-toggle-checked .mat-button-toggle-button{
+    /* background-color: rgba(24, 55, 76, 0.3); */
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: 1px solid rgba(0,0,0,0.1);
+    background: linear-gradient(-45deg, rgba(24, 55, 76, 0.12), rgba(35, 66, 120, 0.48), rgba(24, 55, 76, 0.41), rgba(24, 55, 76, 0.36));
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }
 
 

@@ -32,6 +32,7 @@ import { CountertopModalComponent } from './countertops/countertops-budget/count
 import { CabinetsComponent } from './cabinets/cabinets/cabinets.component';
 import { CabinetsLocationComponent } from './cabinets/cabinets-location/cabinets-location.component';
 import { CommonKitchenLayoutsComponent } from './cabinets/common-kitchen-layouts/common-kitchen-layouts.component'
+import { EditNameModalComponent } from './budget-calculation/budget-calculation.component';
 
 @NgModule({
   declarations: [
@@ -62,9 +63,10 @@ import { CommonKitchenLayoutsComponent } from './cabinets/common-kitchen-layouts
     CountertopModalComponent,
     CabinetsComponent,
     CabinetsLocationComponent,
-    CommonKitchenLayoutsComponent
+    CommonKitchenLayoutsComponent,
+    EditNameModalComponent
   ],
-  entryComponents: [ModalComponent,CountertopModalComponent],
+  entryComponents: [ModalComponent,CountertopModalComponent,EditNameModalComponent],
   imports: [
     CommonModule,
     ComponentRoutingModule,

@@ -321,5 +321,26 @@
         margin-top: 10px;
     }
 }
+@media(min-width:320px) and (max-width:600px){
+    .budget-part li {
+        flex-direction: column;
+    }
+    .budget-part li > div,.budget-part li > div:first-child,.budget-part li > div:last-child {
+        width: 100%;
+        text-align: left;
+    }
+    .budget-part li.for-two-child:last-child > div{
+        text-align: left;
+    }
+    .budget-part li.for-two-child{
+        flex-direction: row;
+    }
+    .budget-part li.for-two-child > div:first-child{
+        width:70%;
+    }
+    .budget-part li.for-two-child > div:last-child{
+        width:30%;
+    }
+}
 
 /* Media Query */

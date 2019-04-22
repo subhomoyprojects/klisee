@@ -22,6 +22,7 @@ export class CountertopDetailsComponent implements OnInit {
       needIslandPeninsula: new FormControl ('', [Validators.required]),
       modelNumber: new FormControl ('', [Validators.required]),
       sku: new FormControl ('', [Validators.required]),
+      addSpalsh: new FormControl ('', [Validators.required]),
     });
   }
 

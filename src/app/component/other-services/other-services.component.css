@@ -98,7 +98,8 @@
 
 @media(min-width:320px) and (max-width:767px){
     .other-service-holder{
-        padding: 15px;
+        padding: 15px 15px 80px;
+        max-height: none;
     }
     .heading-tag h1{
         font-size: 22px;

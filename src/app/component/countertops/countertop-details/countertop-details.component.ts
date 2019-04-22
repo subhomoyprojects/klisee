@@ -20,6 +20,8 @@ export class CountertopDetailsComponent implements OnInit {
       sinkBudget: new FormControl ('', [Validators.required]),
       needPlumber: new FormControl ('', [Validators.required]),
       needIslandPeninsula: new FormControl ('', [Validators.required]),
+      modelNumber: new FormControl ('', [Validators.required]),
+      sku: new FormControl ('', [Validators.required]),
     });
   }
 

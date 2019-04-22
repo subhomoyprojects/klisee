@@ -33,6 +33,8 @@ import { CabinetsComponent } from './cabinets/cabinets/cabinets.component';
 import { CabinetsLocationComponent } from './cabinets/cabinets-location/cabinets-location.component';
 import { CommonKitchenLayoutsComponent } from './cabinets/common-kitchen-layouts/common-kitchen-layouts.component'
 import { EditNameModalComponent } from './budget-calculation/budget-calculation.component';
+import { CabinetsFloorPlanComponent } from './cabinets/cabinets-floor-plan/cabinets-floor-plan.component';
+import { CabinetsPeninsulaMeasureComponent } from './cabinets/cabinets-peninsula-measure/cabinets-peninsula-measure.component';
 
 @NgModule({
   declarations: [
@@ -64,7 +66,9 @@ import { EditNameModalComponent } from './budget-calculation/budget-calculation.
     CabinetsComponent,
     CabinetsLocationComponent,
     CommonKitchenLayoutsComponent,
-    EditNameModalComponent
+    EditNameModalComponent,
+    CabinetsFloorPlanComponent,
+    CabinetsPeninsulaMeasureComponent
   ],
   entryComponents: [ModalComponent,CountertopModalComponent,EditNameModalComponent],
   imports: [

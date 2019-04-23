@@ -21,6 +21,16 @@ export class CountertopsBudgetComponent implements OnInit {
     });
   }
 
+  openCountertopEditNameModalDialog() {
+    const dialogRef = this.dialog.open(EditCountertopNameModalComponent,{
+      maxWidth: '700px'
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(`Dialog result: ${result}`);
+    });
+  }
+
   ngOnInit() {
   }
 
@@ -32,3 +42,10 @@ export class CountertopsBudgetComponent implements OnInit {
   styleUrls: ['./countertops-budget.component.css']
 })
 export class CountertopModalComponent {}
+
+@Component({
+  selector: 'app-edit-countertop-name-modal',
+  templateUrl: './edit-countertop-name-modal.html',
+  styleUrls: ['./countertops-budget.component.css']
+})
+export class EditCountertopNameModalComponent {}

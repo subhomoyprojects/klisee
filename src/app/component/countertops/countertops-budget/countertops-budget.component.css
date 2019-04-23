@@ -17,7 +17,7 @@
 .budget-calculation-holder a:not(.back-to-page), .budget-calculation-holder button:not(.back-to-page){
     color: #446277;
 }
-.budget-calculation-holder button{
+.budget-calculation-holder button:not(.next-btn):not(.prev-btn){
     padding: 0;
 }
 .budget-calculation-holder h2{

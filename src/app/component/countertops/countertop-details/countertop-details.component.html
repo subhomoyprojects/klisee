@@ -36,27 +36,20 @@
                       </div>
                       <div class="need-sinks-child-holder" [ngClass]="{'active': isActive}">
                         <div class="full-width">
-                          <div class="half-width">
-                            <mat-form-field>
-                              <input matInput placeholder="How many sinks will you need?" class="countertop_details" formControlName="howManySink" required>
-                            </mat-form-field>
-                          </div>
+                          <mat-form-field>
+                            <input matInput placeholder="How many sinks will you need?" class="countertop_details" formControlName="howManySink" required>
+                          </mat-form-field>
+                        </div>
+                        <div class="full-width">
                           <div class="half-width">
                             <mat-form-field>
                               <input matInput placeholder="Enter a budget" class="countertop_details" formControlName="sinkBudget" required>
                               <span matPrefix>$&nbsp;</span>
                             </mat-form-field>
                           </div>
-                        </div>
-                        <div class="full-width">
                           <div class="half-width">
                             <mat-form-field>
-                              <input matInput placeholder="Model Number" class="countertop_details" formControlName="modelNumber" required>
-                            </mat-form-field>
-                          </div>
-                          <div class="half-width">
-                            <mat-form-field>
-                              <input matInput placeholder="SKU" class="countertop_details" formControlName="sku" required>
+                              <input matInput placeholder="Model Number / SKU" class="countertop_details" formControlName="modelNumber" required>
                             </mat-form-field>
                           </div>
                         </div>

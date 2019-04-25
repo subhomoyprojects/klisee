@@ -152,10 +152,22 @@
     font-size: 18px;
     margin-bottom: 0;
     width: 100%;
-    max-width: 190px;
+    max-width: 205px;
     position: relative;
     padding-left: 40px;
     line-height: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.project-name-holder h4 small{
+    display: block;
+    color: #727272;
+    font-family: arial;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 12px;
+    letter-spacing: 0.5px;
 }
 .project-name-holder h4 > img{
     position: absolute;
@@ -167,7 +179,7 @@
     width: 1px;
     height: 30px;
     border-radius: 4px;
-    background-color: #d4d4d4;
+    background-color: #b9b5b1;
 }
 .price{
     color: #8c8c8c;
@@ -181,8 +193,14 @@
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
     background-color: rgba(255,255,255,0.1);
 }
-.recent-project-item-holder li > div{
+/* .recent-project-item-holder li > div{
     width:50%;
+} */
+.recent-project-item-holder li > div:first-child{
+    flex-grow: 8;
+}
+.recent-project-item-holder li > div:last-child{
+    flex-grow: 2;
 }
 .project-action-holder{
     text-align: right;

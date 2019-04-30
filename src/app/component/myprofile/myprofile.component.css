@@ -1,0 +1,275 @@
+.my-account-holder{
+    max-width: 100%;
+    margin: 20px auto 0;
+    padding: 0 15px;
+}
+.my-account-controller h5{
+    color: #18374c;
+    font-size: 20px;
+    line-height: 28px;
+}
+.word-break{
+    display: block;
+}
+.social-btn-holder{
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 0;
+}
+.social-btn-holder li{
+    margin:10px 10px 20px;
+    text-align: center;
+}
+.saparater{
+    border-right: 2px solid #e0e0e0;
+}
+.terms-service-controller{
+    font-size: 11px;
+    text-align: center;
+}
+.terms-service-controller a:hover{
+    text-decoration: underline;
+}
+.or-saparater{
+    text-align: center;
+}
+.or-saparater p{
+    color: #18374c;
+    position: relative;
+    width:120px;
+    margin: 10px auto;
+}
+.or-saparater p::before,
+.or-saparater p::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    height: 2px;
+    background-color: #18374c;
+    width:100px;
+}
+.or-saparater p::before{
+    left: -60%;
+}
+.or-saparater p::after{
+    right: -60%;
+}
+.my-account-controller .mat-icon{
+    color: #ababab;
+}
+.user-heading-controller{
+    display: flex;
+    align-items: center;
+}
+.user-heading-controller > div{
+    width: 50%;
+}
+.user-heading-controller > div:last-child{
+    text-align: right;
+}
+.get-new-budget-btn{
+    width:auto !important;
+    padding: 0 20px;
+    line-height: 38px;
+    margin-top: 0 !important;
+}
+.user-heading-controller h5{
+    margin-bottom: 0;
+}
+.my-account-controller h6{
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.project-name-holder{
+    display: flex;
+    align-items: center;
+}
+.project-name-holder h4{
+    font-size: 18px;
+    margin-bottom: 0;
+    width: 100%;
+    max-width: 205px;
+    position: relative;
+    padding-left: 40px;
+    line-height: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.project-name-holder h4 small{
+    display: block;
+    color: #727272;
+    font-family: arial;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 12px;
+    letter-spacing: 0.5px;
+}
+.project-name-holder h4 > img{
+    position: absolute;
+    width:30px;
+    left: 0;
+}
+.project-name-holder .devider{
+    margin: 0 20px;
+    width: 1px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #b9b5b1;
+}
+.price{
+    color: #8c8c8c;
+}
+
+.recent-project-item-holder li{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    margin-top: 8px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    background-color: rgba(255,255,255,0.1);
+}
+/* .recent-project-item-holder li > div{
+    width:50%;
+} */
+.recent-project-item-holder li > div:first-child{
+    flex-grow: 8;
+}
+.recent-project-item-holder li > div:last-child{
+    flex-grow: 2;
+}
+.project-action-holder{
+    text-align: right;
+}
+.project-action-holder button:not(:last-child){
+    margin-right: 5px;
+}
+.project-action-holder button:first-child{
+    color: #46266e;
+}
+.project-action-holder button:last-child{
+    color: #f44336;
+}
+.edit-button-icon{
+    color:#234054;
+    font-size: 28px;
+}
+.myprofile-holder li{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+.myprofile-holder li:last-child{
+    margin-bottom: 0;
+}
+/* .myprofile-holder li > label{
+    width:15%;
+}
+.myprofile-holder li > input{
+    width:85%;
+} */
+.myprofile-holder li > label{
+    margin-bottom: 0;
+    color: #929292;
+    font-size: 14px;
+}
+.myprofile-holder li input{
+    color: #1e3c51;
+    background-color: rgba(255,255,255,0.5);
+    border: 1px solid #b9c4cc;
+    height: 42px;
+    display: inline-block;
+    width: 100%;
+    margin-top: 4px;
+    padding: 7px;
+    font-weight: 600;
+    border-radius: 6px;
+}
+.myprofile-holder li input:read-only{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #555;
+    padding: 0;
+    border-radius: 0;
+    height: 30px;
+}
+.myprofile-holder{
+    max-width: 500px;
+    margin: 0 auto;
+    padding:0 20px 20px;
+}
+.align-center{
+    align-items: center !important;
+}
+
+
+/*--- Media Start ----*/
+@media (min-width:320px) and (max-width:991px){
+    .separater::after{
+        display: none;
+    }
+    .navbar-light .navbar-toggler{
+        border-color: #ddbf65;
+    }
+}
+@media (min-width:320px) and (max-width:767px){
+    .social-btn-holder li a .fa {
+        margin-right: 5px;
+        width: 38px;
+        height: 38px;
+        line-height: 38px;
+        font-size: 20px;
+    }
+    .social-btn-holder li a{
+        width: 230px;
+        height: 38px;
+    }
+    .social-btn-holder{
+        display: flex;
+        flex-direction: column;
+    }
+    .social-btn-holder li{
+        margin: 5px;
+    }
+}
+@media (min-width:320px) and (max-width:600px){
+    .recent-project-item-holder li{
+        flex-direction: column;
+    }
+    .recent-project-item-holder li > div {
+        width: 100%;
+    }
+    .project-name-holder {
+        flex-direction: column;
+    }
+    .project-name-holder .devider{
+        display: none;
+    }
+    .project-name-holder h4 {
+        margin-bottom: 10px;
+    }
+    .price {
+        font-size: 14px;
+    }
+    .project-action-holder {
+        text-align: center;
+    }
+    .myprofile-holder {
+        padding: 0;
+    }
+}
+@media (min-width:601px) and (max-width:991px){
+    .recent-project-item-holder li > div:first-child {
+        width: 85%;
+    }
+    .recent-project-item-holder li > div:last-child {
+        width: 15%;
+    }
+    .price {
+        font-size: 14px;
+    }
+}

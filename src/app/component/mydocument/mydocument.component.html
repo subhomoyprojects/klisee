@@ -1,0 +1,45 @@
+<header class="header-login-signup-wrapper">
+  <nav class="navbar navbar-expand-lg navbar-dark navigation-holder">
+    <a class="navbar-brand" routerLink="/home"><img src="/assets/images/white-logo.png" alt="KLISEE"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse empowering-home-text-controller" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item separater">
+          <a class="nav-link" routerLink="/login">Log In</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/signup">Sign Up</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main class="login-signup-main-wrapper">
+  <section class="login-signup-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 heading-tag">
+            <h1><strong class="text-capitalize">My Document</strong><span>Here are your recent Document</span></h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="my-account-holder">
+            <mat-tab-group mat-align-tabs="center" animationDuration="0ms">
+              <mat-tab label="My Projects">
+                <app-account-details></app-account-details>
+              </mat-tab>
+              <mat-tab label="My Profile">
+                <app-myprofile></app-myprofile>
+              </mat-tab>
+            </mat-tab-group>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

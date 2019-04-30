@@ -10,6 +10,7 @@ import {MatRadioModule} from '@angular/material/radio';
 import {MatTooltipModule} from '@angular/material/tooltip'; 
 import {MatDialogModule} from '@angular/material/dialog'; 
 import {MatButtonToggleModule} from '@angular/material/button-toggle'; 
+import {MatTabsModule} from '@angular/material/tabs'; 
 
 @NgModule({
   declarations: [],
@@ -24,7 +25,8 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle';
     MatRadioModule,
     MatTooltipModule,
     MatDialogModule,
-    MatButtonToggleModule
+    MatButtonToggleModule,
+    MatTabsModule
   ],
   exports: [
     CommonModule,
@@ -37,7 +39,8 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle';
     MatRadioModule,
     MatTooltipModule,
     MatDialogModule,
-    MatButtonToggleModule
+    MatButtonToggleModule,
+    MatTabsModule
   ]
 })
 export class MetarialModule { }

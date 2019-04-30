@@ -26,6 +26,8 @@ import { CabinetsLocationComponent } from './cabinets/cabinets-location/cabinets
 import { CommonKitchenLayoutsComponent } from './cabinets/common-kitchen-layouts/common-kitchen-layouts.component';
 import { CabinetsFloorPlanComponent } from './cabinets/cabinets-floor-plan/cabinets-floor-plan.component';
 import { CabinetsPeninsulaMeasureComponent } from './cabinets/cabinets-peninsula-measure/cabinets-peninsula-measure.component';
+import { MyprofileComponent } from './myprofile/myprofile.component';
+import { MydocumentComponent } from './mydocument/mydocument.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -54,7 +56,9 @@ const routes: Routes = [
   {path:'cabinets-location', component: CabinetsLocationComponent},
   {path:'common-kitchen-layouts', component:CommonKitchenLayoutsComponent},
   {path:'cabinets-floor-plan', component:CabinetsFloorPlanComponent},
-  {path:'cabinets-peninsula-measure', component: CabinetsPeninsulaMeasureComponent}
+  {path:'cabinets-peninsula-measure', component: CabinetsPeninsulaMeasureComponent},
+  {path:'my-profile', component:MyprofileComponent},
+  {path:'my-document', component:MydocumentComponent}
 ];
 
 @NgModule({

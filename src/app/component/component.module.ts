@@ -36,6 +36,9 @@ import { EditNameModalComponent } from './budget-calculation/budget-calculation.
 import { CabinetsFloorPlanComponent } from './cabinets/cabinets-floor-plan/cabinets-floor-plan.component';
 import { CabinetsPeninsulaMeasureComponent } from './cabinets/cabinets-peninsula-measure/cabinets-peninsula-measure.component';
 import { EditCountertopNameModalComponent } from './countertops/countertops-budget/countertops-budget.component';
+import { MyprofileComponent } from './myprofile/myprofile.component';
+import { MydocumentComponent } from './mydocument/mydocument.component';
+import { AccountDetailsComponent } from './account-details/account-details.component';
 
 @NgModule({
   declarations: [
@@ -70,7 +73,10 @@ import { EditCountertopNameModalComponent } from './countertops/countertops-budg
     EditNameModalComponent,
     CabinetsFloorPlanComponent,
     CabinetsPeninsulaMeasureComponent,
-    EditCountertopNameModalComponent
+    EditCountertopNameModalComponent,
+    MyprofileComponent,
+    MydocumentComponent,
+    AccountDetailsComponent
   ],
   entryComponents: [ModalComponent,CountertopModalComponent,EditNameModalComponent,EditCountertopNameModalComponent],
   imports: [

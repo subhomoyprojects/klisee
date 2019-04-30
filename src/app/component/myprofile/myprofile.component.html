@@ -1,0 +1,47 @@
+<div class="my-account-holder">
+  <div class="row">
+    <div class="col-12 my-account-controller offwhite-bg">
+      <div class="user-heading-controller">
+        <div>&nbsp;</div>
+        <div><button class="edit-button-icon" (click)="readonlynone()"><i class="fa fa-pencil-square-o"></i></button></div>
+      </div>
+      <div class="recent-projects-holder">
+        <form method="POST">
+          <ul class="myprofile-holder pb-5" *ngIf="readonly">
+            <!-- <li>Profile Image</li> -->
+            <li>
+              <label>Name:</label>
+              <input type="text" value="Subhomoy Pal"  readonly>
+            </li>
+            <li>
+              <label>Email:</label>
+              <input type="email" value="subhomoyprojects@gmail.com" readonly>
+            </li>
+            <li>
+              <label>Phone:</label>
+              <input type="phone" value="9932663754" readonly>
+            </li>
+          </ul>
+          <ul class="myprofile-holder" *ngIf="!readonly">
+              <!-- <li>Profile Image</li> -->
+              <li>
+                <label>Name:</label>
+                <input type="text" value="Subhomoy Pal"  >
+              </li>
+              <li>
+                <label>Email:</label>
+                <input type="email" value="subhomoyprojects@gmail.com" >
+              </li>
+              <li>
+                <label>Phone:</label>
+                <input type="phone" value="9932663754">
+              </li>
+              <li class="align-center">
+                <button type="button" class="submit-btn mat-raised-button get-new-budget-btn">Submit</button>
+              </li>
+            </ul>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

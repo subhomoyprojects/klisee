@@ -184,20 +184,20 @@
     width: 100%;
 }
 .assumption-holder li span:first-child{
-    width:80%;
+    width:85%;
 }
 .assumption-holder li span:last-child{
-    width:20%;
+    width:15%;
 }
 .assumption-holder li span:first-child::after{
     content: ":";
     position: absolute;
     right: 15px;
 }
-.assumption-holder li:last-child span{
+.assumption-holder:not(.last-child-without-highlight) li:last-child span{
     font-weight: bold;
 }
-.assumption-holder li:last-child{
+.assumption-holder:not(.last-child-without-highlight) li:last-child{
     border-top: 1px solid #446277;
     border-bottom: 1px solid #446277;
     padding: 7px 0;
@@ -231,7 +231,7 @@
     width:100%;
     border: none;
     background: none;
-    min-height: 300px;
+    min-height: 350px;
     max-width: none;
 }
 .assumptions-modal .back-to-page{
@@ -263,6 +263,10 @@
 }
 .budget-part li button{
     text-align: left;
+}
+.assumption-holder{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.13);
+    padding: 10px;
 }
 
 /* Media Query */

@@ -63,7 +63,10 @@ input:-webkit-autofill:active  {
 }
 body{
     font-family:Helvetica, sans-serif;
-}
+    min-height: 100vh;
+    background:#e4e8e8 url(/assets/images/banner-login.png) no-repeat;
+    background-size: cover;
+ }
 button,a{
     display: inline-block;
     background-color: transparent;
@@ -453,8 +456,23 @@ input[type=number] {
 	}
 }
 
-
 /* Media Query */
+
+.navbar-nav .dropdown-menu{
+    padding:0;
+}
+.navbar-nav li a{
+    border-radius: 0;
+}
+.dropdown-menu > a:not(:last-child){
+    border-bottom: 1px solid #f2f2f2;
+}
+.dropdown a{
+    cursor: pointer;
+}
+.mat-dialog-content{
+    max-height: 80vh !important;
+}
 
 @media(min-width:320px) and (max-width:767px)
 {

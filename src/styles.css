@@ -63,9 +63,6 @@ input:-webkit-autofill:active  {
 }
 body{
     font-family:Helvetica, sans-serif;
-    min-height: 100vh;
-    background:#e4e8e8 url(/assets/images/banner-login.png) no-repeat;
-    background-size: cover;
  }
 button,a{
     display: inline-block;

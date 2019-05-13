@@ -28,6 +28,10 @@ import { CabinetsFloorPlanComponent } from './cabinets/cabinets-floor-plan/cabin
 import { CabinetsPeninsulaMeasureComponent } from './cabinets/cabinets-peninsula-measure/cabinets-peninsula-measure.component';
 import { MyprofileComponent } from './myprofile/myprofile.component';
 import { MydocumentComponent } from './mydocument/mydocument.component';
+import { CounterCabinetsComponent } from './cabinets/counter-cabinets/counter-cabinets.component';
+import { CounterdetailsCabinetsComponent } from './cabinets/counterdetails-cabinets/counterdetails-cabinets.component';
+import { ReplaceOrUpdateAppliancesComponent } from './cabinets/replace-or-update-appliances/replace-or-update-appliances.component';
+import { AppliancesComponent } from './cabinets/appliances/appliances.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -58,7 +62,11 @@ const routes: Routes = [
   {path:'cabinets-floor-plan', component:CabinetsFloorPlanComponent},
   {path:'cabinets-peninsula-measure', component: CabinetsPeninsulaMeasureComponent},
   {path:'my-profile', component:MyprofileComponent},
-  {path:'my-document', component:MydocumentComponent}
+  {path:'my-document', component:MydocumentComponent},
+  {path:'counter-cabinets', component:CounterCabinetsComponent},
+  {path:'counterdetails-cabinets', component:CounterdetailsCabinetsComponent},
+  {path:'replace-or-update-appliances', component:ReplaceOrUpdateAppliancesComponent},
+  {path:'appliances', component:AppliancesComponent}
 ];
 
 @NgModule({

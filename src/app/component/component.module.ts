@@ -39,6 +39,10 @@ import { EditCountertopNameModalComponent } from './countertops/countertops-budg
 import { MyprofileComponent } from './myprofile/myprofile.component';
 import { MydocumentComponent } from './mydocument/mydocument.component';
 import { AccountDetailsComponent } from './account-details/account-details.component';
+import { CounterCabinetsComponent } from './cabinets/counter-cabinets/counter-cabinets.component';
+import { CounterdetailsCabinetsComponent } from './cabinets/counterdetails-cabinets/counterdetails-cabinets.component';
+import { ReplaceOrUpdateAppliancesComponent } from './cabinets/replace-or-update-appliances/replace-or-update-appliances.component';
+import { AppliancesComponent } from './cabinets/appliances/appliances.component';
 
 @NgModule({
   declarations: [
@@ -76,7 +80,11 @@ import { AccountDetailsComponent } from './account-details/account-details.compo
     EditCountertopNameModalComponent,
     MyprofileComponent,
     MydocumentComponent,
-    AccountDetailsComponent
+    AccountDetailsComponent,
+    CounterCabinetsComponent,
+    CounterdetailsCabinetsComponent,
+    ReplaceOrUpdateAppliancesComponent,
+    AppliancesComponent
   ],
   entryComponents: [ModalComponent,CountertopModalComponent,EditNameModalComponent,EditCountertopNameModalComponent],
   imports: [

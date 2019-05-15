@@ -11,6 +11,7 @@ import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatDialogModule} from '@angular/material/dialog'; 
 import {MatButtonToggleModule} from '@angular/material/button-toggle'; 
 import {MatTabsModule} from '@angular/material/tabs'; 
+import {MatSelectModule} from '@angular/material/select'; 
 
 @NgModule({
   declarations: [],
@@ -26,7 +27,8 @@ import {MatTabsModule} from '@angular/material/tabs';
     MatTooltipModule,
     MatDialogModule,
     MatButtonToggleModule,
-    MatTabsModule
+    MatTabsModule,
+    MatSelectModule
   ],
   exports: [
     CommonModule,
@@ -40,7 +42,8 @@ import {MatTabsModule} from '@angular/material/tabs';
     MatTooltipModule,
     MatDialogModule,
     MatButtonToggleModule,
-    MatTabsModule
+    MatTabsModule,
+    MatSelectModule
   ]
 })
 export class MetarialModule { }

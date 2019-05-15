@@ -17,28 +17,104 @@
           <figure class="question-answer-holder">
             <div class="question-answer-title-holder">
               <h2>Appliances</h2>
-              <div class="question-answer-icon-holder">
-                <img src="assets/images/engineer.png" alt="Worker">
-              </div>
             </div>
             <figcaption>
-              <form class="question-answer-form">
-                <mat-radio-group>
-                  <ul>
-                    <li><mat-radio-button value="Pre finished flooring">Pre finished flooring</mat-radio-button></li>
-                    <li><mat-radio-button value="Unfinished Flooring">Unfinished Flooring</mat-radio-button></li>
-                    <li><mat-radio-button value="Sanding and Refinishing existing">Sanding and Refinishing existing </mat-radio-button></li>
-                    <li><mat-radio-button value="Hardwood Flooring">Hardwood Flooring</mat-radio-button></li>
-                    <li><mat-radio-button value="Sheet Vinyl">Sheet Vinyl</mat-radio-button></li>
-                    <li><mat-radio-button value="Luxury Vinyl">Luxury Vinyl</mat-radio-button></li>
-                    <li><mat-radio-button value="Porcelain or Ceramic tile flooring">Porcelain or Ceramic tile flooring</mat-radio-button></li>
-                    <li><mat-radio-button value="Laminate flooring (Lock & Click floating)">Laminate flooring (Lock & Click floating)</mat-radio-button></li>
-                    <li><mat-radio-button value="Not sure">Not sure</mat-radio-button></li>
-                  </ul>
-                </mat-radio-group>
+              <form class="question-answer-form appliances-controller">
+                <ul>
+                  <li>
+                    <mat-checkbox value="Refrigerator">Refrigerator</mat-checkbox>
+                    <small class="model-number max-width-110 outline-input-controller">
+                      <mat-form-field appearance="outline">
+                        <mat-label>Model No</mat-label>
+                        <input matInput value="FFSS2615TS">
+                      </mat-form-field>
+                    </small>
+                  </li>
+                  <li>
+                    <mat-checkbox value="Dishwasher">Dishwasher</mat-checkbox>
+                    <small class="model-number max-width-110 outline-input-controller">
+                      <mat-form-field appearance="outline">
+                        <mat-label>Model No</mat-label>
+                        <input matInput value="FFID2426TS">
+                      </mat-form-field>
+                    </small>
+                  </li>
+                  <li>
+                    <mat-checkbox value="Slide in Range">Slide in Range</mat-checkbox>
+                    <small class="model-number max-width-110 outline-input-controller">
+                      <mat-form-field appearance="outline">
+                        <mat-label>Model No</mat-label>
+                        <input matInput value="FFEF3054TS">
+                      </mat-form-field>
+                    </small>
+                  </li>
+                  <li>
+                    <mat-checkbox value="Cooktop">Cooktop</mat-checkbox>
+                    <small class="model-number max-width-110 outline-input-controller">
+                      <mat-form-field appearance="outline">
+                        <mat-label>Model No</mat-label>
+                        <input matInput value="FFEF3054TS">
+                      </mat-form-field>
+                    </small>
+                  </li>
+                  <li>
+                    <mat-checkbox value="Built in Microwave">Built in Microwave</mat-checkbox>
+                    <small class="model-number max-width-110 outline-input-controller">
+                      <mat-form-field appearance="outline">
+                        <mat-label>Model No</mat-label>
+                        <input matInput value="FFEF3054TS">
+                      </mat-form-field>
+                    </small>
+                  </li>
+                  <li>
+                    <mat-checkbox value="Over the range Microwave">Over the range Microwave</mat-checkbox>
+                    <small class="model-number max-width-110 outline-input-controller">
+                      <mat-form-field appearance="outline">
+                        <mat-label>Model No</mat-label>
+                        <input matInput value="FFEF3054TS">
+                      </mat-form-field>
+                    </small>
+                  </li>
+                  <li>
+                    <mat-checkbox value="Built in Single Oven">Built in Single Oven</mat-checkbox>
+                    <small class="model-number max-width-110 outline-input-controller">
+                      <mat-form-field appearance="outline">
+                        <mat-label>Model No</mat-label>
+                        <input matInput value="FFEF3054TS">
+                      </mat-form-field>
+                    </small>
+                  </li>
+                  <li>
+                    <mat-checkbox value="Hood Vent">Hood Vent</mat-checkbox>
+                    <small class="model-number max-width-110 outline-input-controller">
+                      <mat-form-field appearance="outline">
+                        <mat-label>Model No</mat-label>
+                        <input matInput value="FFEF3054TS">
+                      </mat-form-field>
+                    </small>
+                  </li>
+                  <li>
+                    <mat-checkbox value="Wine Cooler / Beverage Fridge">Wine Cooler / Beverage Fridge</mat-checkbox>
+                    <small class="model-number max-width-110 outline-input-controller">
+                      <mat-form-field appearance="outline">
+                        <mat-label>Model No</mat-label>
+                        <input matInput value="FFEF3054TS">
+                      </mat-form-field>
+                    </small>
+                  </li>
+                  <li>
+                    <mat-checkbox value="Speed Oven">Speed Oven</mat-checkbox>
+                    <small class="model-number max-width-110 outline-input-controller">
+                      <mat-form-field appearance="outline">
+                        <mat-label>Model No</mat-label>
+                        <input matInput value="FFEF3054TS">
+                      </mat-form-field>
+                    </small>
+                  </li>
+                </ul>
                 <div class="nxt-prev-btn-holder">
-                  <a routerLink="/common-kitchen-layouts" mat-button class="prev-btn">Previous</a>
-                  <a routerLink="/counterdetails-cabinets" mat-button class="next-btn">Next</a>
+                  <a routerLink="/replace-or-update-appliances" mat-button class="prev-btn">Previous</a>
+                  <a routerLink="/appliances-label" mat-button class="next-btn">Next</a>
                 </div>
               </form>              
             </figcaption>

@@ -53,8 +53,8 @@
     display: flex;
     flex-direction: column;
     border: 1px solid #94b2c6;
-    /* min-height: 300px; */
-    margin-top: 10px;
+    min-height: 300px;
+    margin-top: 40px;
     padding:15px;
     transition: all ease-in-out 0.3s;
 }
@@ -184,52 +184,6 @@
 .room-details .stor-room-details:not(:last-child):not(.active-room-details) .room-holder .full-width{
     display: none;
 }
-/*-------*/
-
-.need-sinks-holder .full-width{
-    margin-bottom: 0;
-}
-.need-sinks-child-holder{
-    padding: 0;
-    background-color: rgba(0,0,0,0.1);
-    border: 1px solid rgba(255,255,255,0.2);
-    margin-top: 0;
-    position: relative;
-    top: 0;
-    bottom: 0;
-    transition: all 0.5s cubic-bezier(0, 1, 0.5, 1);
-    transform: scaleY(0);
-    visibility: hidden;
-    height: 0;
-    opacity: 0;
-    transform-origin: 0% 0%;
-}
-.sink-arrow{
-    position: absolute;
-    top: -15px;
-    width: 30px;
-    height: 15px;
-    overflow: hidden;
-    z-index: 9;
-}
-.sink-arrow::before{
-    position: absolute;
-    content: "";
-    background-color: #30495a;
-    border: 1px solid rgba(255,255,255,0.2);
-    top: 7px;
-    width:30px;
-    height: 30px;
-    transform: rotate(45deg);
-}
-.need-sinks-child-holder.active{
-    transform: scaleY(1);
-    visibility: visible;
-    height: auto;
-    padding: 15px;
-    margin-top: 20px;
-    opacity: 1;
-}
 
 /* Media Query */
 
@@ -257,8 +211,7 @@
     .quarter-controller label {
         font-size: 12px;
     }
-    .quarter-width,
-    .quarter-third-width{
+    .quarter-width{
         width: 100%;
     }
     .quarter-controller .mat-radio-button {
@@ -275,9 +228,6 @@
         font-size: 20px;
         color: #fff;
         text-align: center;
-    }
-    .need-sinks-child-holder.active{
-        padding: 5px;
     }
 }
 

@@ -43,6 +43,11 @@ import { CounterCabinetsComponent } from './cabinets/counter-cabinets/counter-ca
 import { CounterdetailsCabinetsComponent } from './cabinets/counterdetails-cabinets/counterdetails-cabinets.component';
 import { ReplaceOrUpdateAppliancesComponent } from './cabinets/replace-or-update-appliances/replace-or-update-appliances.component';
 import { AppliancesComponent } from './cabinets/appliances/appliances.component';
+import { AppliancesLabelComponent } from './cabinets/appliances-label/appliances-label.component';
+import { CabinetsLayoutChangeComponent } from './cabinets/cabinets-layout-change/cabinets-layout-change.component';
+import { CalculateAvailableWallspaceComponent } from './cabinets/calculate-available-wallspace/calculate-available-wallspace.component';
+import { FlooringTypeCabinetsComponent } from './cabinets/flooring-type-cabinets/flooring-type-cabinets.component';
+import { ResemblesCurrentLayoutComponent } from './cabinets/resembles-current-layout/resembles-current-layout.component';
 
 @NgModule({
   declarations: [
@@ -84,7 +89,12 @@ import { AppliancesComponent } from './cabinets/appliances/appliances.component'
     CounterCabinetsComponent,
     CounterdetailsCabinetsComponent,
     ReplaceOrUpdateAppliancesComponent,
-    AppliancesComponent
+    AppliancesComponent,
+    AppliancesLabelComponent,
+    CabinetsLayoutChangeComponent,
+    CalculateAvailableWallspaceComponent,
+    FlooringTypeCabinetsComponent,
+    ResemblesCurrentLayoutComponent
   ],
   entryComponents: [ModalComponent,CountertopModalComponent,EditNameModalComponent,EditCountertopNameModalComponent],
   imports: [

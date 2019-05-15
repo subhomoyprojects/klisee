@@ -32,6 +32,11 @@ import { CounterCabinetsComponent } from './cabinets/counter-cabinets/counter-ca
 import { CounterdetailsCabinetsComponent } from './cabinets/counterdetails-cabinets/counterdetails-cabinets.component';
 import { ReplaceOrUpdateAppliancesComponent } from './cabinets/replace-or-update-appliances/replace-or-update-appliances.component';
 import { AppliancesComponent } from './cabinets/appliances/appliances.component';
+import { AppliancesLabelComponent } from './cabinets/appliances-label/appliances-label.component';
+import { CabinetsLayoutChangeComponent } from './cabinets/cabinets-layout-change/cabinets-layout-change.component';
+import { CalculateAvailableWallspaceComponent } from './cabinets/calculate-available-wallspace/calculate-available-wallspace.component';
+import { FlooringTypeCabinetsComponent } from './cabinets/flooring-type-cabinets/flooring-type-cabinets.component';
+import { ResemblesCurrentLayoutComponent } from './cabinets/resembles-current-layout/resembles-current-layout.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -66,7 +71,12 @@ const routes: Routes = [
   {path:'counter-cabinets', component:CounterCabinetsComponent},
   {path:'counterdetails-cabinets', component:CounterdetailsCabinetsComponent},
   {path:'replace-or-update-appliances', component:ReplaceOrUpdateAppliancesComponent},
-  {path:'appliances', component:AppliancesComponent}
+  {path:'appliances', component:AppliancesComponent},
+  {path:'appliances-label', component:AppliancesLabelComponent},
+  {path:'cabinets-layout-change', component:CabinetsLayoutChangeComponent},
+  {path:'calculate-available-wallspace', component:CalculateAvailableWallspaceComponent},
+  {path:'flooring-type-cabinets', component:FlooringTypeCabinetsComponent},
+  {path:'resembles-current-layout', component:ResemblesCurrentLayoutComponent}
 ];
 
 @NgModule({

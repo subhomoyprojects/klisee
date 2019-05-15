@@ -40,7 +40,7 @@
     width: 98%;
     max-width: 700px;
     margin: 0 auto 20px;
-    min-height: 400px;
+    /* min-height: 400px; */
     box-shadow: 0 6px 100px rgb(213, 213, 213);
     border-radius: 10px;
     overflow: hidden;
@@ -51,6 +51,7 @@
     padding: 15px 15px;
     background-color: #e4e8e8;
     border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
 }
 .question-answer-title-holder h2{
     font-size: 22px;
@@ -118,25 +119,27 @@
 }
 .question-answer-form ul{
     width: 98%;
-    max-width: 450px;
+    max-width: 400px;
     display: table;
     margin: 20px auto;
 }
 .question-answer-form ul li{
     margin-bottom: 5px;
+}
+.heading-question-answer{
+    font-size: 20px;
+    color: #18374c;
+}
+.align-center{
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
-.question-answer-form ul li .mat-checkbox{
-    flex-grow: 8;
+.align-center *:not(:last-child){
+    margin-right: 10px;
 }
-.model-number{
-    margin-left: 10px;
-    flex-grow: 2;
-}
-.appliances-controller ul li{
-    margin-bottom: 12px;
-}
-.max-width-110{
-    max-width:110px;
+.verticle-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }

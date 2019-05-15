@@ -1,0 +1,91 @@
+<app-header></app-header>
+<main class="body-wrapper">
+  <app-service-heading></app-service-heading>
+  <section class="common-controller-question-answer white-color-controller yourroom-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="room-details-holder heading-tag">
+            <h2>Please tell us some details about the rooms being remodeled</h2>
+            <form id="room" [formGroup]="myRoom">
+              <mat-form-field  appearance="outline" class="mt-3">
+                <mat-label>Select the type of Flooring</mat-label>
+                <mat-select>
+                  <mat-option value="Pre finished flooring">Pre finished flooring</mat-option>
+                  <mat-option value="Unfinished Flooring">Unfinished Flooring</mat-option>
+                  <mat-option value="Sanding and Refinishing existing ">Sanding and Refinishing existing </mat-option>
+                  <mat-option value="Hardwood Flooring">Hardwood Flooring</mat-option>
+                  <mat-option value="Sheet Vinyl">Sheet Vinyl</mat-option>
+                  <mat-option value="Luxury Vinyl">Luxury Vinyl</mat-option>
+                  <mat-option value="Porcelain or Ceramic tile flooring">Porcelain or Ceramic tile flooring</mat-option>
+                  <mat-option value="Laminate flooring (Lock & Click floating)">Laminate flooring (Lock & Click floating)</mat-option>
+                  <mat-option value="Not sure">Not sure</mat-option>
+                </mat-select>
+              </mat-form-field>
+              <ul class="room-details">
+                <li class="active-room-details">
+                  <div class="room-holder">
+                      <h3>Room</h3>
+                      <div class="edit-delete-room-holder">
+                        <button type="button" class="edit-room"><i class="fa fa-pencil"></i></button>
+                        <button type="button" class="delete-room"><i class="fa fa-trash"></i></button>
+                      </div>
+                      <div class="full-width">
+                        <mat-form-field>
+                          <input matInput placeholder="Room Name" class="room_choose" formControlName="roomname" required>
+                        </mat-form-field>
+                      </div>
+                      <div class="full-width">
+                        <div class="half-width">
+                          <mat-form-field>
+                            <input matInput placeholder="Rough Length of the room in feet" class="room_choose" formControlName="roomlength" required>
+                          </mat-form-field>
+                        </div>
+                        <div class="half-width">
+                          <mat-form-field>
+                            <input matInput placeholder="Rough Depth of the room in feet" class="room_choose" formControlName="roombreadth" required>
+                          </mat-form-field>
+                        </div>
+                      </div>
+                      <div class="full-width">
+                        <div class="quarter-controller quarter-third-width">
+                          <label>Will you need demolition of the original flooring?</label>
+                        </div>
+                        <div class="quarter-controller quarter-width">
+                          <mat-radio-group formControlName="roomDemoNeed">
+                            <mat-radio-button value="yes" required >Yes</mat-radio-button>
+                            <mat-radio-button value="no" required >No</mat-radio-button>
+                          </mat-radio-group>
+                        </div>
+                      </div>
+                      <div class="full-width">
+                        <div class="quarter-controller quarter-third-width">
+                          <label>Do you want to remove or replace your baseboards?</label>
+                        </div>
+                        <div class="quarter-controller quarter-width">
+                          <mat-radio-group formControlName="roomBaseboardNeed">
+                            <mat-radio-button value="yes" required >Yes</mat-radio-button>
+                            <mat-radio-button value="no" required >No</mat-radio-button>
+                          </mat-radio-group>
+                        </div>
+                      </div>
+                      <div class="full-width">
+                        <mat-form-field>
+                          <input matInput placeholder="How many doorways are there into this room?" class="room_choose" formControlName="roomdoorways" required>
+                        </mat-form-field>
+                      </div>
+                  </div>
+                </li>
+              </ul>
+              <div class="text-right"><button type="button" class="add-another-room">+ Add Another Room</button></div>
+              <div class="nxt-prev-btn-holder">
+                <a routerLink="/counterdetails-cabinets" mat-button class="prev-btn">Previous</a>
+                <a routerLink="/replace-or-update-appliances" mat-button class="next-btn">Next</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

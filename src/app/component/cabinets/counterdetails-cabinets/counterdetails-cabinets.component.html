@@ -1,13 +1,27 @@
 <app-header></app-header>
 <main class="body-wrapper">
   <app-service-heading></app-service-heading>
-  <section class="common-controller-question-answer yourroom-wrapper">
+  <section class="common-controller-question-answer white-color-controller yourroom-wrapper">
     <div class="container">
       <div class="row">
         <div class="col-12">
           <div class="room-details-holder heading-tag">
             <h2>Please tell us some details about countertop project</h2>
             <form id="counterTopDetails" [formGroup]="counterTopDetails">
+              <mat-form-field  appearance="outline" class="mt-3">
+                <mat-label>Select the type of Countertops</mat-label>
+                <mat-select>
+                  <mat-option value="Pre finished flooring">Pre finished flooring</mat-option>
+                  <mat-option value="Unfinished Flooring">Unfinished Flooring</mat-option>
+                  <mat-option value="Sanding and Refinishing existing ">Sanding and Refinishing existing </mat-option>
+                  <mat-option value="Hardwood Flooring">Hardwood Flooring</mat-option>
+                  <mat-option value="Sheet Vinyl">Sheet Vinyl</mat-option>
+                  <mat-option value="Luxury Vinyl">Luxury Vinyl</mat-option>
+                  <mat-option value="Porcelain or Ceramic tile flooring">Porcelain or Ceramic tile flooring</mat-option>
+                  <mat-option value="Laminate flooring (Lock & Click floating)">Laminate flooring (Lock & Click floating)</mat-option>
+                  <mat-option value="Not sure">Not sure</mat-option>
+                </mat-select>
+              </mat-form-field>
               <ul class="room-details countertop-details">
                 <li class="active-room-details">
                   <div class="room-holder">
@@ -98,8 +112,8 @@
                 </li>
               </ul>
               <div class="nxt-prev-btn-holder">
-                <a routerLink="/counter-cabinets" mat-button class="prev-btn">Previous</a>
-                <a routerLink="/cabinets-peninsula-measure" mat-button class="next-btn">Next</a>
+                <a routerLink="/calculate-available-wallspace" mat-button class="prev-btn">Previous</a>
+                <a routerLink="/flooring-type-cabinets" mat-button class="next-btn">Next</a>
               </div>
             </form>
           </div>

@@ -118,25 +118,31 @@
 }
 .question-answer-form ul{
     width: 98%;
-    max-width: 450px;
     display: table;
     margin: 20px auto;
+    max-width: 370px;
 }
 .question-answer-form ul li{
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+}
+.appliances-label-container li{
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #d7d5d5;
+    padding-bottom: 15px;
+    padding-top: 2px;
 }
-.question-answer-form ul li .mat-checkbox{
-    flex-grow: 8;
+.appliances-label-container li:last-child{
+    border-bottom: none;
 }
-.model-number{
-    margin-left: 10px;
-    flex-grow: 2;
+.appliances-label-container li > *:not(:last-child){
+    margin-right:5px;
 }
-.appliances-controller ul li{
-    margin-bottom: 12px;
+.appliances-label-container li > label{
+    width: 100%;
+    font-weight: bold;
+    font-size: 15px;
 }
-.max-width-110{
-    max-width:110px;
+.appliances-label-options:not(:last-child){
+    margin-right:23px;
 }

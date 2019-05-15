@@ -15,7 +15,7 @@
       <div class="row">
         <div class="col-12">
           <div class="budget-calculation-holder">
-            <h2 class="text-center">Pick your current kitchen layout</h2>
+            <h2 class="text-center">Which kitchen layout most closely resembles your current layout?</h2>
             <form>
                 <mat-button-toggle-group>
                 <ul class="kitchen-layout-holder">
@@ -39,35 +39,19 @@
               </mat-button-toggle-group>
               <ul class="question-answer-form common-kitchen-layout-input-holder"> 
                 <li>
-                  <label>Enter Length and depth of room where the kitchen will go</label>
-                  <mat-form-field>
+                  <label>Please enter the length of the current lower cabinet walls</label>
+                  <mat-form-field class="width-40">
                     <input matInput placeholder="Length">
                   </mat-form-field>
-                  <mat-form-field>
-                    <input matInput placeholder="Breadth">
-                  </mat-form-field>
                 </li>
                 <li>
-                  <label>How many doorways will be in this room?</label>
+                  <label>Please enter the length of the current upper cabinet walls</label>
                   <mat-form-field class="width-40">
-                    <input matInput placeholder="Doorways">
+                    <input matInput placeholder="Length">
                   </mat-form-field>
                 </li>
                 <li>
-                  <label>Are you planning to keep a table in the kitchen?</label>
-                  <mat-radio-group class="width-40">
-                    <mat-radio-button value="Yes">Yes</mat-radio-button>
-                    <mat-radio-button value="No">No</mat-radio-button>
-                  </mat-radio-group>
-                </li>
-                <li>
-                  <label>How many windows are in the kitchen?</label>
-                  <mat-form-field class="width-40">
-                    <input matInput placeholder="windows">
-                  </mat-form-field>
-                </li>
-                <li>
-                  <label>Would you like an Island or Peninsula?</label>
+                  <label>Do you have an Island or Peninsula?</label>
                   <mat-radio-group class="width-40">
                     <mat-radio-button value="Yes" (change)="isActive = !isActive">Yes</mat-radio-button>
                     <mat-radio-button value="No" (change)="isActive = false">No</mat-radio-button>

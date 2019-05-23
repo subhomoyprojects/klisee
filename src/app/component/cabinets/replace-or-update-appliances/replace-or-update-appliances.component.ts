@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReplaceOrUpdateAppliancesComponent implements OnInit {
 
+  isActive: boolean;
+
   constructor() { }
 
   ngOnInit() {
+    this.isActive=false;
   }
 
 }

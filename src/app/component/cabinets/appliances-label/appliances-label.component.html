@@ -16,66 +16,34 @@
         <div class="col-12">
           <figure class="question-answer-holder">
             <div class="question-answer-title-holder">
-              <h2>Appliances Level</h2>
+              <h2>To create a budget for new appliances</h2>
             </div>
             <figcaption>
               <form class="question-answer-form">
-                <ul class="appliances-label-container">
-                  <li>
-                    <label>Refrigerator</label>
-                    <mat-radio-group>
-                      <mat-radio-button class="appliances-label-options" value="Entry">Entry</mat-radio-button>
-                      <mat-radio-button class="appliances-label-options" value="Mid Priced">Mid Priced</mat-radio-button>
-                      <mat-radio-button class="appliances-label-options" value="High End">High End</mat-radio-button>
-                      <mat-radio-button class="appliances-label-options" value="Exclusive">Exclusive</mat-radio-button>
-                    </mat-radio-group>
-                  </li>
-                  <li>
-                    <label>Dishwasher</label>
-                    <mat-radio-group>
-                      <mat-radio-button class="appliances-label-options" value="Entry">Entry</mat-radio-button>
-                      <mat-radio-button class="appliances-label-options" value="Mid Priced">Mid Priced</mat-radio-button>
-                      <mat-radio-button class="appliances-label-options" value="High End">High End</mat-radio-button>
-                      <mat-radio-button class="appliances-label-options" value="Exclusive">Exclusive</mat-radio-button>
-                    </mat-radio-group>
-                  </li>
-                  <li>
-                    <label>Slide in Range</label>
-                    <mat-radio-group>
-                      <mat-radio-button class="appliances-label-options" value="Entry">Entry</mat-radio-button>
-                      <mat-radio-button class="appliances-label-options" value="Mid Priced">Mid Priced</mat-radio-button>
-                      <mat-radio-button class="appliances-label-options" value="High End">High End</mat-radio-button>
-                      <mat-radio-button class="appliances-label-options" value="Exclusive">Exclusive</mat-radio-button>
-                    </mat-radio-group>
-                  </li>
-                  <li>
-                    <label>Cooktop</label>
-                    <mat-radio-group>
-                      <mat-radio-button class="appliances-label-options" value="Entry">Entry</mat-radio-button>
-                      <mat-radio-button class="appliances-label-options" value="Mid Priced">Mid Priced</mat-radio-button>
-                      <mat-radio-button class="appliances-label-options" value="High End">High End</mat-radio-button>
-                      <mat-radio-button class="appliances-label-options" value="Exclusive">Exclusive</mat-radio-button>
-                    </mat-radio-group>
-                  </li>
-                  <li>
-                    <label>Built in Microwave</label>
-                    <mat-radio-group>
-                      <mat-radio-button class="appliances-label-options" value="Entry">Entry</mat-radio-button>
-                      <mat-radio-button class="appliances-label-options" value="Mid Priced">Mid Priced</mat-radio-button>
-                      <mat-radio-button class="appliances-label-options" value="High End">High End</mat-radio-button>
-                      <mat-radio-button class="appliances-label-options" value="Exclusive">Exclusive</mat-radio-button>
-                    </mat-radio-group>
-                  </li>
-                  <li>
-                    <label>Over the range Microwave</label>
-                    <mat-radio-group>
-                      <mat-radio-button class="appliances-label-options" value="Entry">Entry</mat-radio-button>
-                      <mat-radio-button class="appliances-label-options" value="Mid Priced">Mid Priced</mat-radio-button>
-                      <mat-radio-button class="appliances-label-options" value="High End">High End</mat-radio-button>
-                      <mat-radio-button class="appliances-label-options" value="Exclusive">Exclusive</mat-radio-button>
-                    </mat-radio-group>
-                  </li>
-                </ul>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr class="table-secondary">
+                      <th scope="col">Appliance Type</th>
+                      <th scope="col">Modal Number</th>
+                      <th scope="col">Price</th>
+                      <th scope="col">Description</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td data-label="Appliance Type">Refrigerator</td>
+                      <td data-label="Modal Number">FFSS2615TS</td>
+                      <td data-label="Price">$1,100.00</td>
+                      <td data-label="Description">Frigidaire</td>
+                    </tr>
+                    <tr>
+                      <td scope="row" data-label="Appliance Type">Dishwasher</td>
+                      <td data-label="Modal Number">FFID2426TS</td>
+                      <td data-label="Price">$400.00</td>
+                      <td data-label="Description">Frigidaire</td>
+                    </tr>
+                  </tbody>
+                </table>
                 <div class="nxt-prev-btn-holder">
                   <a routerLink="/appliances" mat-button class="prev-btn">Previous</a>
                   <a routerLink="/appliances-label" mat-button class="next-btn">Next</a>

@@ -37,6 +37,7 @@ import { CabinetsLayoutChangeComponent } from './cabinets/cabinets-layout-change
 import { CalculateAvailableWallspaceComponent } from './cabinets/calculate-available-wallspace/calculate-available-wallspace.component';
 import { FlooringTypeCabinetsComponent } from './cabinets/flooring-type-cabinets/flooring-type-cabinets.component';
 import { ResemblesCurrentLayoutComponent } from './cabinets/resembles-current-layout/resembles-current-layout.component';
+import { ReplaceorupdateQuestionSetComponent } from './cabinets/replaceorupdate-question-set/replaceorupdate-question-set.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -76,7 +77,8 @@ const routes: Routes = [
   {path:'cabinets-layout-change', component:CabinetsLayoutChangeComponent},
   {path:'calculate-available-wallspace', component:CalculateAvailableWallspaceComponent},
   {path:'flooring-type-cabinets', component:FlooringTypeCabinetsComponent},
-  {path:'resembles-current-layout', component:ResemblesCurrentLayoutComponent}
+  {path:'resembles-current-layout', component:ResemblesCurrentLayoutComponent},
+  {path:'replaceorupdate-question-set', component:ReplaceorupdateQuestionSetComponent}
 ];
 
 @NgModule({

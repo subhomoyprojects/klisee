@@ -118,7 +118,7 @@
 }
 .question-answer-form ul{
     width: 98%;
-    max-width: 450px;
+    max-width: 600px;
     display: table;
     margin: 20px auto;
 }
@@ -127,16 +127,26 @@
     display: flex;
     align-items: center;
 }
-.question-answer-form ul li .mat-checkbox{
-    flex-grow: 8;
-}
-.model-number{
-    margin-left: 10px;
-    flex-grow: 2;
-}
 .appliances-controller ul li{
     margin-bottom: 12px;
 }
 .max-width-110{
     max-width:110px;
+}
+.appliances-controller ul > li{
+    display: flex;
+    text-align: center;
+}
+.appliances-controller ul > li > *{
+    width:25%;
+    display: inline-block;
+}
+.appliances-controller ul > li > *:first-child{
+    width:50%;
+    text-align: left;
+}
+.appliances-controller ul > li.heading-controller label{
+    font-size: 13px;
+    color: #666;
+    letter-spacing: 0.5px;
 }

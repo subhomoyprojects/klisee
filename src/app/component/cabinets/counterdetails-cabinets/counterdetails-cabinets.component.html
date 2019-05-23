@@ -1,12 +1,21 @@
 <app-header></app-header>
 <main class="body-wrapper">
-  <app-service-heading></app-service-heading>
+  <section class="main-heading-wrapper">
+    <div class="container">
+      <div class="row">
+          <div class="col-12 heading-tag collect-pin">
+            <!-- Let's get started creating your -->
+            <h1> <strong>Cabinets Remodel Budget!</strong><span>when replacing cabinets you will likely replace the counters.  </span></h1>
+          </div>
+        </div>
+    </div>
+  </section>
   <section class="common-controller-question-answer white-color-controller yourroom-wrapper">
     <div class="container">
       <div class="row">
         <div class="col-12">
           <div class="room-details-holder heading-tag">
-            <h2>Please tell us some details about countertop project</h2>
+            <h2>Please answer the following</h2>
             <form id="counterTopDetails" [formGroup]="counterTopDetails">
               <mat-form-field  appearance="outline" class="mt-3">
                 <mat-label>Select the type of Countertops</mat-label>
@@ -25,17 +34,6 @@
               <ul class="room-details countertop-details">
                 <li class="active-room-details">
                   <div class="room-holder">
-                    <div class="full-width">
-                      <div class="quarter-controller quarter-third-width">
-                        <label>Will you need your old counters removed?</label>
-                      </div>
-                      <div class="quarter-controller quarter-width">
-                        <mat-radio-group formControlName="oldCounterRemoved">
-                          <mat-radio-button value="yes" required >Yes</mat-radio-button>
-                          <mat-radio-button value="no" required >No</mat-radio-button>
-                        </mat-radio-group>
-                      </div>
-                    </div>
                     <div class="need-sinks-holder">
                       <div class="full-width">
                         <div class="quarter-controller quarter-third-width">
@@ -88,17 +86,6 @@
                     </div>
                     <div class="full-width">
                       <div class="quarter-controller quarter-third-width">
-                        <label>Will you need an Island or Peninsula?</label>
-                      </div>
-                      <div class="quarter-controller quarter-width">
-                        <mat-radio-group formControlName="needIslandPeninsula">
-                          <mat-radio-button value="yes" required >Yes</mat-radio-button>
-                          <mat-radio-button value="no" required >No</mat-radio-button>
-                        </mat-radio-group>
-                      </div>
-                    </div>
-                    <div class="full-width">
-                      <div class="quarter-controller quarter-third-width">
                         <label> Do you want to add a 4" tall back splash?</label>
                       </div>
                       <div class="quarter-controller quarter-width">
@@ -112,7 +99,7 @@
                 </li>
               </ul>
               <div class="nxt-prev-btn-holder">
-                <a routerLink="/calculate-available-wallspace" mat-button class="prev-btn">Previous</a>
+                <a routerLink="/replaceorupdate-question-set" mat-button class="prev-btn">Previous</a>
                 <a routerLink="/flooring-type-cabinets" mat-button class="next-btn">Next</a>
               </div>
             </form>

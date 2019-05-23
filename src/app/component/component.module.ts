@@ -48,6 +48,7 @@ import { CabinetsLayoutChangeComponent } from './cabinets/cabinets-layout-change
 import { CalculateAvailableWallspaceComponent } from './cabinets/calculate-available-wallspace/calculate-available-wallspace.component';
 import { FlooringTypeCabinetsComponent } from './cabinets/flooring-type-cabinets/flooring-type-cabinets.component';
 import { ResemblesCurrentLayoutComponent } from './cabinets/resembles-current-layout/resembles-current-layout.component';
+import { ReplaceorupdateQuestionSetComponent } from './cabinets/replaceorupdate-question-set/replaceorupdate-question-set.component';
 
 @NgModule({
   declarations: [
@@ -94,7 +95,8 @@ import { ResemblesCurrentLayoutComponent } from './cabinets/resembles-current-la
     CabinetsLayoutChangeComponent,
     CalculateAvailableWallspaceComponent,
     FlooringTypeCabinetsComponent,
-    ResemblesCurrentLayoutComponent
+    ResemblesCurrentLayoutComponent,
+    ReplaceorupdateQuestionSetComponent
   ],
   entryComponents: [ModalComponent,CountertopModalComponent,EditNameModalComponent,EditCountertopNameModalComponent],
   imports: [

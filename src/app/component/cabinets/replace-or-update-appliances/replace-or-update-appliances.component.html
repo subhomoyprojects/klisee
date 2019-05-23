@@ -21,9 +21,19 @@
             <figcaption>
               <form class="question-answer-form">
                 <mat-radio-group>
-                  <ul>
-                    <li><mat-radio-button value="Yes, I would like to update my appliances">Yes, I would like to update my appliances</mat-radio-button></li>
-                    <li><mat-radio-button value="Select current Appliances">No, I would like to keep the existing appliances</mat-radio-button></li>
+                  <ul class="label-controller">
+                    <li>
+                      <mat-radio-button value="Yes, I would like to update my appliances" (change)="isActive = !isActive">Yes, I would like to update my appliances</mat-radio-button>
+                      <mat-radio-group class="show-label" aria-label="labelSet" [ngClass]="{'active': isActive}">
+                        <mat-radio-button value="Entry">Entry</mat-radio-button>
+                        <mat-radio-button value="Mid Priced">Mid Priced</mat-radio-button>
+                        <mat-radio-button value="High End">High End</mat-radio-button>
+                        <mat-radio-button value="Exclusive">Exclusive</mat-radio-button>
+                      </mat-radio-group>                            
+                    </li>
+                    <li>
+                      <mat-radio-button value="Select current Appliances" (change)="isActive = false">No, I would like to keep the existing appliances</mat-radio-button>
+                    </li>
                   </ul>
                 </mat-radio-group>
                 <div class="nxt-prev-btn-holder">

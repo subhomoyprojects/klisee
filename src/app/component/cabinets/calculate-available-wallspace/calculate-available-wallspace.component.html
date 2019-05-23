@@ -15,7 +15,7 @@
       <div class="row">
         <div class="col-12">
           <div class="budget-calculation-holder">
-            <h2 class="text-center">Calculate the available wall spaces</h2>
+            <h2 class="text-center">Calculate the available wall spaces in linear feet</h2>
             <div class="row">
               <div class="col-12 col-sm-6 col-md-7 plan-holder">
                 <img src="assets/images/l-shape.png" class="mt-2" alt="cabinets wall spaces">
@@ -23,13 +23,12 @@
               <div class="col-12 col-sm-6 col-md-5 plan-details-holder">
                 <div class="plan-size-input-holder">
                   <mat-form-field>
-                    <input matInput placeholder="Upper Cabinet">
+                    <input matInput placeholder="A">
+                    <span matSuffix>LF</span>
                   </mat-form-field>
                   <mat-form-field>
-                    <input matInput placeholder="Lower Cabinet">
-                  </mat-form-field>
-                  <mat-form-field>
-                    <input matInput placeholder="Island">
+                    <input matInput placeholder="B">
+                    <span matSuffix>LF</span>
                   </mat-form-field>
                 </div>
                 <!-- <div class="text-right"><button class="add-another-room" type="button">+ Add Another Length</button></div> -->
@@ -37,7 +36,7 @@
             </div>
             <div class="nxt-prev-btn-holder mt-4 mb-4">
               <a routerLink="/common-kitchen-layouts" mat-button class="prev-btn">Previous</a>
-              <a routerLink="/counterdetails-cabinets" mat-button class="next-btn">Next</a>
+              <a routerLink="/replaceorupdate-question-set" mat-button class="next-btn">Next</a>
             </div>
           </div>
         </div>

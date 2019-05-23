@@ -42,9 +42,11 @@
                   <label>Enter Length and depth of room where the kitchen will go</label>
                   <mat-form-field>
                     <input matInput placeholder="Length">
+                    <span matSuffix>LF</span>
                   </mat-form-field>
                   <mat-form-field>
                     <input matInput placeholder="Breadth">
+                    <span matSuffix>LF</span>
                   </mat-form-field>
                 </li>
                 <li>
@@ -74,12 +76,14 @@
                   </mat-radio-group>
                 </li>
                 <li [ngClass]="{'active': isActive}" class="roughly-length-island-peninsula">
-                  <label>Enter roughly the length of the Island or Peninsula</label>
+                  <label>Enter roughly the depth of the Island or Peninsula</label>
                   <mat-form-field>
                     <input matInput placeholder="Length">
+                    <span matSuffix>LF</span>
                   </mat-form-field>
                   <mat-form-field>
-                    <input matInput placeholder="Breadth">
+                    <input matInput placeholder="Depth">
+                    <span matSuffix>LF</span>
                   </mat-form-field>
                 </li>
               </ul>

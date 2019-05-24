@@ -157,6 +157,13 @@
 .question-answer-form table td {
     text-align: center;
 }
+.question-answer-form table th input,
+.question-answer-form table td input {
+    width: 100%;
+    text-align: center;
+    border: 2px inset #EBE9ED;
+    background-color: #fff;
+}
 .question-answer-form table th {
     text-transform: capitalize;
 }

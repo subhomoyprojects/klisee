@@ -41,10 +41,8 @@ import { MydocumentComponent } from './mydocument/mydocument.component';
 import { AccountDetailsComponent } from './account-details/account-details.component';
 import { CounterCabinetsComponent } from './cabinets/counter-cabinets/counter-cabinets.component';
 import { CounterdetailsCabinetsComponent } from './cabinets/counterdetails-cabinets/counterdetails-cabinets.component';
-import { ReplaceOrUpdateAppliancesComponent } from './cabinets/replace-or-update-appliances/replace-or-update-appliances.component';
 import { AppliancesComponent } from './cabinets/appliances/appliances.component';
 import { AppliancesLabelComponent } from './cabinets/appliances-label/appliances-label.component';
-import { CabinetsLayoutChangeComponent } from './cabinets/cabinets-layout-change/cabinets-layout-change.component';
 import { CalculateAvailableWallspaceComponent } from './cabinets/calculate-available-wallspace/calculate-available-wallspace.component';
 import { FlooringTypeCabinetsComponent } from './cabinets/flooring-type-cabinets/flooring-type-cabinets.component';
 import { ResemblesCurrentLayoutComponent } from './cabinets/resembles-current-layout/resembles-current-layout.component';
@@ -89,10 +87,8 @@ import { ReplaceorupdateQuestionSetComponent } from './cabinets/replaceorupdate-
     AccountDetailsComponent,
     CounterCabinetsComponent,
     CounterdetailsCabinetsComponent,
-    ReplaceOrUpdateAppliancesComponent,
     AppliancesComponent,
     AppliancesLabelComponent,
-    CabinetsLayoutChangeComponent,
     CalculateAvailableWallspaceComponent,
     FlooringTypeCabinetsComponent,
     ResemblesCurrentLayoutComponent,

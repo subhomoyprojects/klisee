@@ -23,8 +23,19 @@
                 <div class="room-holder">
                   <div class="need-sinks-holder">
                     <div class="full-width">
+                        <div class="quarter-controller quarter-third-width">
+                          <label>Will you be replacing your cabinets?</label>
+                        </div>
+                        <div class="quarter-controller quarter-width">
+                          <mat-radio-group>
+                            <mat-radio-button value="yes" >Yes</mat-radio-button>
+                            <mat-radio-button value="no" >No</mat-radio-button>
+                          </mat-radio-group>
+                        </div>
+                      </div>
+                    <div class="full-width">
                       <div class="quarter-controller quarter-third-width">
-                        <label>Will you be replacing or updating your flooring</label>
+                        <label>Will you be replacing or updating your flooring?</label>
                       </div>
                       <div class="quarter-controller quarter-width">
                         <mat-radio-group>
@@ -35,7 +46,7 @@
                     </div>
                     <div class="full-width">
                       <div class="quarter-controller quarter-third-width">
-                        <label>Will you be replacing or updating your appliances</label>
+                        <label>Will you be replacing or updating your appliances?</label>
                       </div>
                       <div class="quarter-controller quarter-width">
                         <mat-radio-group>
@@ -46,7 +57,7 @@
                     </div>
                     <div class="full-width">
                       <div class="quarter-controller quarter-third-width">
-                        <label>Will you be replacing or updating your countertops</label>
+                        <label>Will you be replacing or updating your countertops?</label>
                       </div>
                       <div class="quarter-controller quarter-width">
                         <mat-radio-group>
@@ -57,7 +68,7 @@
                     </div>
                     <div class="full-width">
                       <div class="quarter-controller quarter-third-width">
-                        <label>Will you be installing a tile backsplash</label>
+                        <label>Will you be installing a tile backsplash?</label>
                       </div>
                       <div class="quarter-controller quarter-width">
                         <mat-radio-group>
@@ -68,7 +79,7 @@
                     </div>
                     <div class="full-width">
                       <div class="quarter-controller quarter-third-width">
-                        <label>Will you be painting the room</label>
+                        <label>Will you be painting the room?</label>
                       </div>
                       <div class="quarter-controller quarter-width">
                         <mat-radio-group>
@@ -80,8 +91,8 @@
                   </div>
                 </div>
                 <div class="nxt-prev-btn-holder mt-4">
-                  <a routerLink="/calculate-available-wallspace" mat-button class="prev-btn">Previous</a>
-                  <a routerLink="/counterdetails-cabinets" mat-button class="next-btn">Next</a>
+                  <a routerLink="/cabinets-location" mat-button class="prev-btn">Previous</a>
+                  <a routerLink="/common-kitchen-layouts" mat-button class="next-btn">Next</a>
                 </div>
               </form>              
             </figcaption>

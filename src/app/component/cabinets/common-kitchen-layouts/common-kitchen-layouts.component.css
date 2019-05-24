@@ -175,4 +175,14 @@
     .kitchen-layout-holder li:not(:last-child) {
         border-bottom: 1px dotted #333;
     }
+    .common-kitchen-layout-input-holder li {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .common-kitchen-layout-input-holder li > label,
+    .common-kitchen-layout-input-holder li > .mat-form-field,
+    .common-kitchen-layout-input-holder li > .width-40, 
+    .common-kitchen-layout-input-holder li > .width-40.mat-form-field {
+        width: 100%;
+    }
 }

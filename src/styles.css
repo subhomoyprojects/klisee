@@ -651,6 +651,9 @@ input[type=number] {
     .white-color-controller .mat-select{
         font-size: 12px;
     }
+    .question-answer-form.appliances-controller .mat-checkbox-layout {
+        font-size: 12px;
+    }
 }
 @media(min-width:601px) and (max-width:767px){
     .mat-input-element{

@@ -208,4 +208,13 @@
     .question-answer-form table td:last-child {
         border-bottom: 0;
     }
+    .question-answer-form table th input, 
+    .question-answer-form table td input {
+        margin: 10px 0 0;
+    }
+}
+@media (min-width:600px) and (max-width:767px){
+    .question-answer-form table th{
+        font-size: 13px;
+    }
 }

@@ -150,3 +150,9 @@
     color: #666;
     letter-spacing: 0.5px;
 }
+@media (min-width:320px) and (max-width:767px){
+    .appliances-controller ul > li.heading-controller label {
+        font-size: 10px;
+        letter-spacing: normal;
+    }
+}

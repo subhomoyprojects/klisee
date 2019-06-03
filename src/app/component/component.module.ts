@@ -47,6 +47,7 @@ import { CalculateAvailableWallspaceComponent } from './cabinets/calculate-avail
 import { FlooringTypeCabinetsComponent } from './cabinets/flooring-type-cabinets/flooring-type-cabinets.component';
 import { ResemblesCurrentLayoutComponent } from './cabinets/resembles-current-layout/resembles-current-layout.component';
 import { ReplaceorupdateQuestionSetComponent } from './cabinets/replaceorupdate-question-set/replaceorupdate-question-set.component';
+import { CostPerLinearTableComponent } from './cabinets/cost-per-linear-table/cost-per-linear-table.component';
 
 @NgModule({
   declarations: [
@@ -92,7 +93,8 @@ import { ReplaceorupdateQuestionSetComponent } from './cabinets/replaceorupdate-
     CalculateAvailableWallspaceComponent,
     FlooringTypeCabinetsComponent,
     ResemblesCurrentLayoutComponent,
-    ReplaceorupdateQuestionSetComponent
+    ReplaceorupdateQuestionSetComponent,
+    CostPerLinearTableComponent
   ],
   entryComponents: [ModalComponent,CountertopModalComponent,EditNameModalComponent,EditCountertopNameModalComponent],
   imports: [

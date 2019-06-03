@@ -597,6 +597,13 @@ input[type=number] {
 .need-sinks-holder .mat-radio-label{
     margin-bottom: 0;
 }
+.text-href-link-blue{
+    text-decoration: underline;
+    font-weight: 600;
+}
+.text-href-link-blue:hover{
+    text-decoration: underline;
+}
 /*----------------*/
 
 /* GLOBAL CSS STARTS */

@@ -48,6 +48,7 @@ import { FlooringTypeCabinetsComponent } from './cabinets/flooring-type-cabinets
 import { ResemblesCurrentLayoutComponent } from './cabinets/resembles-current-layout/resembles-current-layout.component';
 import { ReplaceorupdateQuestionSetComponent } from './cabinets/replaceorupdate-question-set/replaceorupdate-question-set.component';
 import { CostPerLinearTableComponent } from './cabinets/cost-per-linear-table/cost-per-linear-table.component';
+import { CabinetHeightFactorTableComponent } from './cabinets/cabinet-height-factor-table/cabinet-height-factor-table.component';
 
 @NgModule({
   declarations: [
@@ -94,7 +95,8 @@ import { CostPerLinearTableComponent } from './cabinets/cost-per-linear-table/co
     FlooringTypeCabinetsComponent,
     ResemblesCurrentLayoutComponent,
     ReplaceorupdateQuestionSetComponent,
-    CostPerLinearTableComponent
+    CostPerLinearTableComponent,
+    CabinetHeightFactorTableComponent
   ],
   entryComponents: [ModalComponent,CountertopModalComponent,EditNameModalComponent,EditCountertopNameModalComponent],
   imports: [

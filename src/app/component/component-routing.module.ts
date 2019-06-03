@@ -37,6 +37,7 @@ import { FlooringTypeCabinetsComponent } from './cabinets/flooring-type-cabinets
 import { ResemblesCurrentLayoutComponent } from './cabinets/resembles-current-layout/resembles-current-layout.component';
 import { ReplaceorupdateQuestionSetComponent } from './cabinets/replaceorupdate-question-set/replaceorupdate-question-set.component';
 import { CostPerLinearTableComponent } from './cabinets/cost-per-linear-table/cost-per-linear-table.component';
+import { CabinetHeightFactorTableComponent } from './cabinets/cabinet-height-factor-table/cabinet-height-factor-table.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -76,7 +77,8 @@ const routes: Routes = [
   {path:'flooring-type-cabinets', component:FlooringTypeCabinetsComponent},
   {path:'resembles-current-layout', component:ResemblesCurrentLayoutComponent},
   {path:'replaceorupdate-question-set', component:ReplaceorupdateQuestionSetComponent},
-  {path:'cost-per-linear-table', component:CostPerLinearTableComponent}
+  {path:'cost-per-linear-table', component:CostPerLinearTableComponent},
+  {path:'cabinet-height-factor-table', component:CabinetHeightFactorTableComponent}
 ];
 
 @NgModule({
